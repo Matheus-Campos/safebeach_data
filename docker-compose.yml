@@ -1,0 +1,22 @@
+version: '3'
+
+services:
+  app:
+    build: .
+    volumes:
+      - .:/usr/src/app
+    environment:
+      DB_HOST: db
+      DB_USER: postgres
+      DB_PASSWORD: root
+      DB_NAME: safebeach
+
+  db:
+    image: postgis/postgis:16-3.4
+    environment:
+      POSTGRES_PASSWORD: root
+      POSTGRES_DB: safebeach
+    volumes:
+      - .pgdata:/var/lib/postgresql/data
+    ports:
+      - 5432:5432

@@ -1,0 +1,5 @@
+et-xmlfile==1.1.0
+psycopg2==2.9.9
+setuptools==68.2.2
+wheel==0.41.3
+xlrd==2.0.1

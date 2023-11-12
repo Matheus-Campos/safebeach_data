@@ -16,15 +16,8 @@ def main():
 
 def insert_outpost_into_db(name, latitude, longitude):
     cursor = conn.cursor()
-    sql = f"""
-    INSERT INTO agent_outposts (name, latitude, longitude, location) VALUES (
-        '{name}',
-        {latitude},
-        {longitude},
-        'POINT({latitude} {longitude})'
-    );
-    """
-    cursor.execute(sql)
+    sql = "INSERT INTO agent_outposts (name, latitude, longitude, location) VALUES (%s, %s, %s, %s);"
+    cursor.execute(sql, (name, latitude, longitude, f"POINT({latitude} {longitude})"))
     conn.commit()
 
 

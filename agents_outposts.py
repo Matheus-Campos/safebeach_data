@@ -8,18 +8,20 @@ conn = None
 
 def main():
     df = pd.read_excel("data/Postos de Guarda Vidas.xls", 0)
-    for _, row in df.iterrows():
-        insert_outpost_into_db(row)
+    for name, latitude, longitude in zip(
+        df["IDENTIFICAÇÃO"], df["LATITUDE"], df["LONGITUDE"]
+    ):
+        insert_outpost_into_db(name, latitude, longitude)
 
 
-def insert_outpost_into_db(outpost):
+def insert_outpost_into_db(name, latitude, longitude):
     cursor = conn.cursor()
     sql = f"""
     INSERT INTO agent_outposts (name, latitude, longitude, location) VALUES (
-        '{outpost['IDENTIFICAÇÃO']}',
-        {outpost['LATITUDE']},
-        {outpost['LONGITUDE']},
-        'POINT({outpost['LATITUDE']} {outpost['LONGITUDE']})'
+        '{name}',
+        {latitude},
+        {longitude},
+        'POINT({latitude} {longitude})'
     );
     """
     cursor.execute(sql)

@@ -1,14 +1,11 @@
-import os
+import sys
 import xlrd as xls
-import psycopg2 as pg
+
+import db
+
+conn = None
 
 def main():
-    db_host = os.getenv('DB_HOST', 'db')
-    db_user = os.getenv('DB_USER', 'postgres')
-    db_password = os.getenv('DB_PASSWORD', 'root')
-    db_name = os.getenv('DB_NAME', 'safebeach')
-    conn = pg.connect(host=db_host, user=db_user, password=db_password, database=db_name)
-
     wb = xls.open_workbook('data/Postos de Guarda Vidas.xls')
     sheet = wb.sheet_by_index(0)
     attr_names = ['name', 'lat', 'lng']
@@ -33,5 +30,41 @@ def insert_outpost_into_db(conn, outpost):
     cursor.execute(sql)
     conn.commit()
 
+def create_table_if_not_exists():
+    cur = conn.cursor()
+    create_table = '''
+    CREATE TABLE IF NOT EXISTS agent_outposts (
+        id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
+        name VARCHAR(255) NOT NULL,
+        location geography(Point, 4326) NOT NULL,
+        latitude DOUBLE PRECISION NOT NULL,
+        longitude DOUBLE PRECISION NOT NULL,
+        created_at TIMESTAMP NOT NULL DEFAULT now(),
+        updated_at TIMESTAMP NOT NULL DEFAULT now()
+    )
+    '''
+
+    cur.execute(create_table)
+    conn.commit()
+
+
+def drop_table():
+    cur = conn.cursor()
+    drop_table = 'DROP TABLE IF EXISTS agent_outposts;'
+
+    cur.execute(drop_table)
+    conn.commit()
+
 if __name__ == '__main__':
-    main()
+    conn = db.connect()
+
+    migration = None
+    if len(sys.argv) > 1:
+        migration = sys.argv[1]
+
+    if migration == 'up':
+        create_table_if_not_exists()
+    elif migration == 'down':
+        drop_table()
+    elif migration is None:
+        main()

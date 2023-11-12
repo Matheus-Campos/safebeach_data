@@ -1,7 +1,7 @@
 import sys
 import pandas as pd
 
-import db
+import db as db
 
 conn = None
 
@@ -37,6 +37,7 @@ def create_table_if_not_exists():
 
     cur.execute(create_table)
     conn.commit()
+    conn.close()
 
 
 def drop_table():
@@ -45,6 +46,7 @@ def drop_table():
 
     cur.execute(drop_table)
     conn.commit()
+    conn.close()
 
 
 if __name__ == "__main__":

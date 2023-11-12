@@ -7,20 +7,20 @@ import db
 conn = None
 
 MOON_PHASES = {"Ch": "full", "Nv": "new", "Mg": "waning", "Cr": "waxing"}
-MONTHS = {
-    "JAN": 1,
-    "FEV": 2,
-    "MAR": 3,
-    "ABR": 4,
-    "MAI": 5,
-    "JUN": 6,
-    "JUL": 7,
-    "AGO": 8,
-    "SET": 9,
-    "OUT": 10,
-    "NOV": 11,
-    "DEZ": 12,
-}
+MONTHS = [
+    "JAN",
+    "FEV",
+    "MAR",
+    "ABR",
+    "MAI",
+    "JUN",
+    "JUL",
+    "AGO",
+    "SET",
+    "OUT",
+    "NOV",
+    "DEZ",
+]
 
 
 def main():
@@ -71,7 +71,7 @@ def main():
     ) in zip(*[df[column] for column in relevant_columns]):
         incident = {
             "victim_survived": is_alive,
-            "date": dt.date(year, MONTHS[month], date),
+            "date": dt.date(year, MONTHS.index(month) + 1, date),
             "moon_phase": MOON_PHASES[moon_phase],
             "wound": wound,
             "next_to": place,

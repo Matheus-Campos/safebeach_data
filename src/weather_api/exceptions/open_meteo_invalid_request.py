@@ -1,0 +1,2 @@
+class OpenMeteoInvalidRequest(Exception):
+    pass

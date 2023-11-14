@@ -1,9 +1,12 @@
 from datetime import date, timedelta
 import json
+import os
 
 import numpy as np
 import db
-from weather_api.openmeteo import HourlyData, OpenMeteoClient
+from dotenv import load_dotenv
+from api.weather.openmeteo import HourlyData, OpenMeteoClient
+from api.tides.stormglass import Stormglass
 
 
 def main():
@@ -22,6 +25,16 @@ def main():
 
     igrejinha_incidents = [i for i in incidents if i["next_to"] == "Igreja de Piedade"]
     print(f"{len(igrejinha_incidents)} incidentes na igrejinha")
+
+    stormglass = Stormglass(os.getenv("STORMGLASS_API_KEY"))
+    stormglass_res = stormglass.get_data_from(
+        piedade_outpost["lat"],
+        piedade_outpost["lng"],
+        igrejinha_incidents[0]["date"],
+        igrejinha_incidents[0]["date"] + timedelta(days=1),
+    )
+    print(stormglass_res)
+    return
 
     data = [
         get_shark_incident_data(igrejinha_incidents, i, piedade_outpost)
@@ -44,7 +57,7 @@ def get_shark_incident_data(incidents, index, outpost):
     print(f"Pegando dados meteorológicos do incidente {incident['id']}... {progress}%")
 
     incident_date = incident["date"]
-    response = OpenMeteoClient.get_data_from(
+    openmeteo_res = OpenMeteoClient.get_data_from(
         outpost["lat"],
         outpost["lng"],
         incident_date - timedelta(days=1),
@@ -59,8 +72,8 @@ def get_shark_incident_data(incidents, index, outpost):
     )
 
     return {
-        "previous_day_weather": hourly_to_daily_data(response["hourly"], 0, 24),
-        "incident_day_weather": hourly_to_daily_data(response["hourly"], 24, 48),
+        "previous_day_weather": hourly_to_daily_data(openmeteo_res["hourly"], 0, 24),
+        "incident_day_weather": hourly_to_daily_data(openmeteo_res["hourly"], 24, 48),
         **incident,
     }
 
@@ -107,4 +120,5 @@ def build_incident(data):
 
 
 if __name__ == "__main__":
+    load_dotenv()
     main()

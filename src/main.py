@@ -1,124 +1,162 @@
 from datetime import date, timedelta
+from time import time
 import json
 import os
 
 import numpy as np
+from api.geocoding.google import GoogleMapsClient
 import db
 from dotenv import load_dotenv
 from api.weather.openmeteo import HourlyData, OpenMeteoClient
-from api.tides.stormglass import Stormglass
+from api.tides.stormglass import StormglassClient
+from queries import SELECT_NEAREST_AGENT_OUTPOST, SELECT_SHARK_INCIDENTS
 
 
-def main():
-    with db.connect() as conn:
-        cur = conn.cursor()
-        cur.execute("SELECT id, name, latitude, longitude FROM agent_outposts;")
-        outposts = [build_outpost(data) for data in cur.fetchall()]
+class Main:
+    def __init__(self, dbConn, stormglass, googlemaps):
+        self.dbConn = dbConn
+        self.stormglass = stormglass
+        self.googlemaps = googlemaps
 
-        cur.execute(
-            "SELECT id, victim_survived, date, moon_phase, wound, next_to, beach, city FROM shark_incidents;"
-        )
-        incidents = [build_incident(data) for data in cur.fetchall()]
+    def get_raw_incidents_from_db(self):
+        cur = self.dbConn.cursor()
+        cur.execute(SELECT_SHARK_INCIDENTS)
+        incidents = [self.__build_incident(data) for data in cur.fetchall()]
+        cur.close()
 
-    piedade_outpost = [o for o in outposts if o["name"].find("Igrejinha") != -1].pop()
-    print("Posto da igrejinha:", piedade_outpost["name"])
+        return incidents
 
-    igrejinha_incidents = [i for i in incidents if i["next_to"] == "Igreja de Piedade"]
-    print(f"{len(igrejinha_incidents)} incidentes na igrejinha")
+    def main(self):
+        incidents = self.get_raw_incidents_from_db()
 
-    stormglass = Stormglass(os.getenv("STORMGLASS_API_KEY"))
-    stormglass_res = stormglass.get_data_from(
-        piedade_outpost["lat"],
-        piedade_outpost["lng"],
-        igrejinha_incidents[0]["date"],
-        igrejinha_incidents[0]["date"] + timedelta(days=1),
-    )
-    print(stormglass_res)
-    return
+        data = [self.improve_incident_data(incidents, i) for i in range(len(incidents))]
 
-    data = [
-        get_shark_incident_data(igrejinha_incidents, i, piedade_outpost)
-        for i in range(len(igrejinha_incidents))
-    ]
+        with open("shark_incidents.json", "w") as file:
+            json.dump(
+                data, file, indent=2, default=self.__serialize_time, ensure_ascii=False
+            )
 
-    with open("shark_incidents.json", "w") as file:
-        json.dump(data, file, indent=2, default=serialize_time, ensure_ascii=False)
+    def __serialize_time(self, obj):
+        if isinstance(obj, date):
+            return obj.isoformat()
+        raise TypeError("Type not serializable")
 
+    def improve_incident_data(self, incidents, index):
+        progress = round((index) / len(incidents) * 100)
+        print(f"\nProgresso: {progress}%")
 
-def serialize_time(obj):
-    if isinstance(obj, date):
-        return obj.isoformat()
-    raise TypeError("Type not serializable")
+        incident = incidents[index]
+        print("Pegando coordenadas geográficas do incidente %s" % incident["id"])
 
+        approx_location = self.googlemaps.geocode(incident)
+        if approx_location is None:
+            print(
+                'Não foi possível achar coordenadas geográficas para "%s"'
+                % incident["next_to"]
+            )
+        else:
+            print(
+                "Coordenadas aproximadas: Latitude %f, Longitude: %f"
+                % (approx_location["lat"], approx_location["lng"])
+            )
+            cursor = self.dbConn.cursor()
+            cursor.execute(
+                SELECT_NEAREST_AGENT_OUTPOST,
+                (approx_location["lng"], approx_location["lat"]),
+            )
+            nearest_outpost = self.__build_outpost(cursor.fetchone())
+            cursor.close()
 
-def get_shark_incident_data(incidents, index, outpost):
-    incident = incidents[index]
-    progress = round((index + 1) / len(incidents) * 100)
-    print(f"Pegando dados meteorológicos do incidente {incident['id']}... {progress}%")
+            print(
+                "Posto guarda-vidas mais próximo: %s\nDistância aproximada do incidente %.2fm"
+                % (nearest_outpost["name"], nearest_outpost["distance_to_incident"])
+            )
 
-    incident_date = incident["date"]
-    openmeteo_res = OpenMeteoClient.get_data_from(
-        outpost["lat"],
-        outpost["lng"],
-        incident_date - timedelta(days=1),
-        incident_date,
-        [
-            HourlyData.rain,
-            HourlyData.temperature,
-            HourlyData.precipitation,
-            HourlyData.apparent_temperature,
-            HourlyData.wind_speed,
-        ],
-    )
+            print("Pegando dados meteorológicos do incidente %s..." % incident["id"])
 
-    return {
-        "previous_day_weather": hourly_to_daily_data(openmeteo_res["hourly"], 0, 24),
-        "incident_day_weather": hourly_to_daily_data(openmeteo_res["hourly"], 24, 48),
-        **incident,
-    }
+            incident_date = incident["date"]
+            weather = OpenMeteoClient.get_data_from(
+                nearest_outpost["latitude"],
+                nearest_outpost["longitude"],
+                incident_date - timedelta(days=1),
+                incident_date,
+                [
+                    HourlyData.rain,
+                    HourlyData.temperature,
+                    HourlyData.precipitation,
+                    HourlyData.apparent_temperature,
+                    HourlyData.wind_speed,
+                ],
+            )
 
+            print("Pegando dados de maré no dia %s" % incident_date.isoformat())
 
-def hourly_to_daily_data(hourly, start, end):
-    return {
-        "rain_sum_in_mm": round(np.sum(hourly[HourlyData.rain.value][start:end]), 2),
-        "precipitation_sum_in_mm": round(
-            np.sum(hourly[HourlyData.precipitation.value][start:end]), 2
-        ),
-        "temperature_avg_in_c": round(
-            np.average(hourly[HourlyData.temperature.value][start:end]), 2
-        ),
-        "apparent_temperature_avg_in_c": round(
-            np.average(hourly[HourlyData.apparent_temperature.value][start:end]),
-            2,
-        ),
-        "wind_speed_avg_in_kmh": round(
-            np.average(hourly[HourlyData.wind_speed.value][start:end]), 2
-        ),
-    }
+            tides = self.stormglass.get_data_from(
+                nearest_outpost["latitude"],
+                nearest_outpost["longitude"],
+                incident_date,
+                incident_date,
+            ).get("data")
 
+            return {
+                "previous_day_weather": self.__hourly_to_daily_data(
+                    weather["hourly"], 0, 24
+                ),
+                "incident_day_weather": self.__hourly_to_daily_data(
+                    weather["hourly"], 24, 48
+                ),
+                "nearest_outpost": nearest_outpost,
+                "tides": tides,
+                **incident,
+            }
 
-def build_outpost(data):
-    return {
-        "id": data[0],
-        "name": data[1],
-        "lat": data[2],
-        "lng": data[3],
-    }
+    def __hourly_to_daily_data(self, hourly, start, end):
+        return {
+            "rain_sum_in_mm": round(
+                np.sum(hourly[HourlyData.rain.value][start:end]), 2
+            ),
+            "precipitation_sum_in_mm": round(
+                np.sum(hourly[HourlyData.precipitation.value][start:end]), 2
+            ),
+            "temperature_avg_in_c": round(
+                np.average(hourly[HourlyData.temperature.value][start:end]), 2
+            ),
+            "apparent_temperature_avg_in_c": round(
+                np.average(hourly[HourlyData.apparent_temperature.value][start:end]),
+                2,
+            ),
+            "wind_speed_avg_in_kmh": round(
+                np.average(hourly[HourlyData.wind_speed.value][start:end]), 2
+            ),
+        }
 
+    def __build_outpost(self, data):
+        return {
+            "name": data[0],
+            "latitude": data[1],
+            "longitude": data[2],
+            "distance_to_incident": data[3],
+        }
 
-def build_incident(data):
-    return {
-        "id": data[0],
-        "victim_survived": data[1],
-        "date": data[2],
-        "moon_phase": data[3],
-        "wound": data[4],
-        "next_to": data[5],
-        "beach": data[6],
-        "city": data[7],
-    }
+    def __build_incident(self, data):
+        return {
+            "id": data[0],
+            "victim_survived": data[1],
+            "date": data[2],
+            "moon_phase": data[3],
+            "wound": data[4],
+            "next_to": data[5],
+            "beach": data[6],
+            "city": data[7],
+        }
 
 
 if __name__ == "__main__":
     load_dotenv()
-    main()
+    stormglass = StormglassClient(os.getenv("STORMGLASS_API_KEY"))
+    googlemaps = GoogleMapsClient(os.getenv("GOOGLE_MAPS_API_KEY"))
+    start = time()
+    with db.connect() as conn:
+        Main(conn, stormglass, googlemaps).main()
+    end = time()
+    print("Coleta de dados levou %ss para finalizar" % (end - start))

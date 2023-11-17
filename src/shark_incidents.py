@@ -3,6 +3,13 @@ import sys
 import pandas as pd
 
 import db as db
+from queries import (
+    CREATE_MOON_PHASE_TYPE,
+    CREATE_SHARK_INCIDENTS_TABLE,
+    DROP_MOON_PHASE_TYPE,
+    DROP_SHARK_INCIDENTS_TABLE,
+    INSERT_SHARK_INCIDENT,
+)
 
 conn = None
 
@@ -70,7 +77,7 @@ def main():
         city,
     ) in zip(*[df[column] for column in relevant_columns]):
         incident = {
-            "victim_survived": is_alive,
+            "victim_survived": is_alive == "V",
             "date": dt.date(year, MONTHS.index(month) + 1, date),
             "moon_phase": MOON_PHASES[moon_phase],
             "wound": wound,
@@ -83,15 +90,14 @@ def main():
 
 def insert_incident_into_db(incident):
     cur = conn.cursor()
-    sql = "INSERT INTO shark_incidents (victim_survived, date, moon_phase, wound, next_to, beach, city) VALUES (%s, %s, %s, %s, %s, %s, %s)"
     cur.execute(
-        sql,
+        INSERT_SHARK_INCIDENT,
         (
-            bool(incident["victim_survived"]),
+            incident["victim_survived"],
             incident["date"],
             incident["moon_phase"],
             incident["wound"],
-            incident["next_to"],
+            incident["next_to"] if incident["next_to"] != "?" else None,
             incident["beach"],
             incident["city"],
         ),
@@ -101,38 +107,16 @@ def insert_incident_into_db(incident):
 
 def create_table_if_not_exists():
     cur = conn.cursor()
-
-    create_types = "CREATE TYPE moon_phase AS ENUM ('new', 'waxing', 'full', 'waning');"
-
-    cur.execute(create_types)
-
-    create_table = """
-    CREATE TABLE IF NOT EXISTS shark_incidents (
-        id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
-        victim_survived BOOLEAN DEFAULT true,
-        date DATE NOT NULL,
-        moon_phase moon_phase NOT NULL,
-        wound VARCHAR(255),
-        next_to VARCHAR(255),
-        beach VARCHAR(255) NOT NULL,
-        city VARCHAR(255) NOT NULL,
-        created_at TIMESTAMP NOT NULL DEFAULT now(),
-        updated_at TIMESTAMP NOT NULL DEFAULT now()
-    );
-    """
-
-    cur.execute(create_table)
+    cur.execute(CREATE_MOON_PHASE_TYPE)
+    cur.execute(CREATE_SHARK_INCIDENTS_TABLE)
     conn.commit()
     conn.close()
 
 
 def drop_table_if_exists():
     cur = conn.cursor()
-
-    drop_table = "DROP TABLE IF EXISTS shark_incidents;"
-    cur.execute(drop_table)
-    drop_type = "DROP TYPE IF EXISTS moon_phase;"
-    cur.execute(drop_type)
+    cur.execute(DROP_SHARK_INCIDENTS_TABLE)
+    cur.execute(DROP_MOON_PHASE_TYPE)
     conn.commit()
     conn.close()
 

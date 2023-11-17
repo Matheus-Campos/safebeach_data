@@ -2,15 +2,15 @@ from datetime import datetime, time
 import requests
 
 
-class Stormglass:
-    BASE_URL = "https://api.stormglass.io/v2/tide/extremes/point"
+class StormglassClient:
+    __BASE_URL = "https://api.stormglass.io/v2/tide/extremes/point"
 
     def __init__(self, apikey):
         self.apikey = apikey
 
     def get_data_from(self, lat, lng, start, end):
         response = requests.get(
-            Stormglass.BASE_URL,
+            self.__BASE_URL,
             params={
                 "lat": lat,
                 "lng": lng,

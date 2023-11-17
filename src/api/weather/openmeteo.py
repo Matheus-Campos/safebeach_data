@@ -13,13 +13,13 @@ class HourlyData(Enum):
 
 
 class OpenMeteoClient:
-    BASE_URL = "https://archive-api.open-meteo.com/v1/archive"
+    __BASE_URL = "https://archive-api.open-meteo.com/v1/archive"
 
     @staticmethod
     def get_data_from(lat, lng, start, end, hourly_data):
         try:
             response = requests.get(
-                OpenMeteoClient.BASE_URL,
+                OpenMeteoClient.__BASE_URL,
                 params={
                     "latitude": lat,
                     "longitude": lng,

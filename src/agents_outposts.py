@@ -2,6 +2,11 @@ import sys
 import pandas as pd
 
 import db as db
+from queries import (
+    CREATE_AGENT_OUTPOSTS_TABLE,
+    DROP_AGENT_OUTPOSTS_TABLE,
+    INSERT_AGENT_OUTPOST,
+)
 
 conn = None
 
@@ -16,35 +21,23 @@ def main():
 
 def insert_outpost_into_db(name, latitude, longitude):
     cursor = conn.cursor()
-    sql = "INSERT INTO agent_outposts (name, latitude, longitude, location) VALUES (%s, %s, %s, %s);"
-    cursor.execute(sql, (name, latitude, longitude, f"POINT({latitude} {longitude})"))
+    cursor.execute(
+        INSERT_AGENT_OUTPOST,
+        (name, latitude, longitude, f"POINT({longitude} {latitude})"),
+    )
     conn.commit()
 
 
 def create_table_if_not_exists():
     cur = conn.cursor()
-    create_table = """
-    CREATE TABLE IF NOT EXISTS agent_outposts (
-        id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
-        name VARCHAR(255) NOT NULL,
-        location geography(Point, 4326) NOT NULL,
-        latitude DOUBLE PRECISION NOT NULL,
-        longitude DOUBLE PRECISION NOT NULL,
-        created_at TIMESTAMP NOT NULL DEFAULT now(),
-        updated_at TIMESTAMP NOT NULL DEFAULT now()
-    )
-    """
-
-    cur.execute(create_table)
+    cur.execute(CREATE_AGENT_OUTPOSTS_TABLE)
     conn.commit()
     conn.close()
 
 
 def drop_table():
     cur = conn.cursor()
-    drop_table = "DROP TABLE IF EXISTS agent_outposts;"
-
-    cur.execute(drop_table)
+    cur.execute(DROP_AGENT_OUTPOSTS_TABLE)
     conn.commit()
     conn.close()
 

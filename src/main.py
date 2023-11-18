@@ -1,7 +1,8 @@
-from datetime import date, timedelta
+from datetime import date, datetime, timedelta
 from time import time
 import json
 import os
+import pytz
 
 import numpy as np
 from api.geocoding.google import GoogleMapsClient
@@ -13,6 +14,8 @@ from queries import SELECT_NEAREST_AGENT_OUTPOST, SELECT_SHARK_INCIDENTS
 
 
 class Main:
+    __LOCAL_TZ = pytz.timezone("America/Recife")
+
     def __init__(self, dbConn, stormglass, googlemaps):
         self.dbConn = dbConn
         self.stormglass = stormglass
@@ -33,7 +36,12 @@ class Main:
 
         with open("shark_incidents.json", "w") as file:
             json.dump(
-                data, file, indent=2, default=self.__serialize_time, ensure_ascii=False
+                data,
+                file,
+                indent=2,
+                default=self.__serialize_time,
+                ensure_ascii=False,
+                sort_keys=True,
             )
 
     def __serialize_time(self, obj):
@@ -97,6 +105,11 @@ class Main:
                 incident_date,
                 incident_date,
             ).get("data")
+
+            for tide in tides:
+                tide["time"] = datetime.fromisoformat(tide["time"]).astimezone(
+                    self.__LOCAL_TZ
+                )
 
             return {
                 "previous_day_weather": self.__hourly_to_daily_data(

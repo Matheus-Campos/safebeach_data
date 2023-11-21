@@ -1,0 +1,2305 @@
+[
+  {
+    "beach": "Piedade",
+    "city": "Jaboatão dos Guararapes",
+    "date": "1992-06-28",
+    "id": "86abcc1f-82fb-4868-b852-b912acd2141d",
+    "incident_day_weather": {
+      "apparent_temperature_avg_in_c": 27.19,
+      "precipitation_sum_in_mm": 3.5,
+      "rain_sum_in_mm": 3.5,
+      "temperature_avg_in_c": 23.88,
+      "wind_speed_avg_in_kmh": 10.01
+    },
+    "moon_phase": "new",
+    "nearest_outpost": {
+      "distance_to_incident": 27.29103098,
+      "latitude": -8.16968,
+      "longitude": -34.914100000000005,
+      "name": "Posto 04 Jaboatão Igrejinha"
+    },
+    "next_to": "Igreja de Piedade",
+    "previous_day_weather": {
+      "apparent_temperature_avg_in_c": 27.3,
+      "precipitation_sum_in_mm": 6.0,
+      "rain_sum_in_mm": 6.0,
+      "temperature_avg_in_c": 24.41,
+      "wind_speed_avg_in_kmh": 12.86
+    },
+    "tides": [
+      {
+        "height": 0.7756489495821224,
+        "time": "1992-06-28T01:56:00-03:00",
+        "type": "high"
+      },
+      {
+        "height": -0.8457985405011859,
+        "time": "1992-06-28T08:15:00-03:00",
+        "type": "low"
+      },
+      {
+        "height": 0.7783560998411649,
+        "time": "1992-06-28T14:26:00-03:00",
+        "type": "high"
+      },
+      {
+        "height": -0.8007343979972561,
+        "time": "1992-06-28T20:33:00-03:00",
+        "type": "low"
+      }
+    ],
+    "victim_survived": false,
+    "wound": "Antebraço, coxa e nádega"
+  },
+  {
+    "beach": "Boa Viagem",
+    "city": "Recife",
+    "date": "1992-09-10",
+    "id": "e2e9e22c-a76d-4095-b61e-bc300433d701",
+    "incident_day_weather": {
+      "apparent_temperature_avg_in_c": 26.51,
+      "precipitation_sum_in_mm": 2.5,
+      "rain_sum_in_mm": 2.5,
+      "temperature_avg_in_c": 24.16,
+      "wind_speed_avg_in_kmh": 12.72
+    },
+    "moon_phase": "new",
+    "nearest_outpost": {
+      "distance_to_incident": 220.47999029,
+      "latitude": -8.12717,
+      "longitude": -34.8977,
+      "name": "Posto 08 Recife"
+    },
+    "next_to": "Castelinho",
+    "previous_day_weather": {
+      "apparent_temperature_avg_in_c": 27.1,
+      "precipitation_sum_in_mm": 1.0,
+      "rain_sum_in_mm": 1.0,
+      "temperature_avg_in_c": 24.78,
+      "wind_speed_avg_in_kmh": 12.93
+    },
+    "tides": [
+      {
+        "height": 0.8519957551893226,
+        "time": "1992-09-10T02:45:00-03:00",
+        "type": "high"
+      },
+      {
+        "height": -0.8596692956619757,
+        "time": "1992-09-10T09:00:00-03:00",
+        "type": "low"
+      },
+      {
+        "height": 0.8074718475184267,
+        "time": "1992-09-10T15:07:00-03:00",
+        "type": "high"
+      }
+    ],
+    "victim_survived": false,
+    "wound": "Tronco"
+  },
+  {
+    "beach": "Boa Viagem",
+    "city": "Recife",
+    "date": "1992-09-17",
+    "id": "81bd14ba-96bb-4080-bf70-ee4d825d46de",
+    "incident_day_weather": {
+      "apparent_temperature_avg_in_c": 26.66,
+      "precipitation_sum_in_mm": 2.7,
+      "rain_sum_in_mm": 2.7,
+      "temperature_avg_in_c": 24.29,
+      "wind_speed_avg_in_kmh": 14.77
+    },
+    "moon_phase": "waning",
+    "nearest_outpost": {
+      "distance_to_incident": 80.47406523,
+      "latitude": -8.11787,
+      "longitude": -34.893299999999996,
+      "name": "Posto 06 Recife Acaiaca"
+    },
+    "next_to": "Acaiaca",
+    "previous_day_weather": {
+      "apparent_temperature_avg_in_c": 26.25,
+      "precipitation_sum_in_mm": 4.4,
+      "rain_sum_in_mm": 4.4,
+      "temperature_avg_in_c": 23.55,
+      "wind_speed_avg_in_kmh": 12.2
+    },
+    "tides": [
+      {
+        "height": -0.7693892134574383,
+        "time": "1992-09-17T00:21:00-03:00",
+        "type": "low"
+      },
+      {
+        "height": 0.7022504936623638,
+        "time": "1992-09-17T06:36:00-03:00",
+        "type": "high"
+      },
+      {
+        "height": -0.6668179483434333,
+        "time": "1992-09-17T12:42:00-03:00",
+        "type": "low"
+      },
+      {
+        "height": 0.6674075707980371,
+        "time": "1992-09-17T18:55:00-03:00",
+        "type": "high"
+      }
+    ],
+    "victim_survived": true,
+    "wound": "Perna"
+  },
+  {
+    "beach": "Piedade",
+    "city": "Jaboatão dos Guararapes",
+    "date": "1993-01-23",
+    "id": "659e7f8f-c76d-4086-b6ef-68a1d79c155a",
+    "incident_day_weather": {
+      "apparent_temperature_avg_in_c": 28.08,
+      "precipitation_sum_in_mm": 0.0,
+      "rain_sum_in_mm": 0.0,
+      "temperature_avg_in_c": 25.93,
+      "wind_speed_avg_in_kmh": 18.08
+    },
+    "moon_phase": "new",
+    "nearest_outpost": {
+      "distance_to_incident": 539.98651548,
+      "latitude": -8.17739,
+      "longitude": -34.9163,
+      "name": "Posto 05 Jaboatão"
+    },
+    "next_to": "Hotel Britônie ",
+    "previous_day_weather": {
+      "apparent_temperature_avg_in_c": 28.31,
+      "precipitation_sum_in_mm": 1.0,
+      "rain_sum_in_mm": 1.0,
+      "temperature_avg_in_c": 25.9,
+      "wind_speed_avg_in_kmh": 16.29
+    },
+    "tides": [
+      {
+        "height": -0.9349215303866257,
+        "time": "1993-01-22T22:11:00-03:00",
+        "type": "low"
+      },
+      {
+        "height": 0.8102442687005412,
+        "time": "1993-01-23T04:18:00-03:00",
+        "type": "high"
+      },
+      {
+        "height": -0.8159540276316194,
+        "time": "1993-01-23T10:18:00-03:00",
+        "type": "low"
+      },
+      {
+        "height": 0.9529995818570012,
+        "time": "1993-01-23T16:27:00-03:00",
+        "type": "high"
+      }
+    ],
+    "victim_survived": true,
+    "wound": "Perna"
+  },
+  {
+    "beach": "Paiva ",
+    "city": "Cabo de Santo Agostinho",
+    "date": "1993-03-27",
+    "id": "4ceff2c1-e18a-464c-829e-5f29143ce97b",
+    "incident_day_weather": {
+      "apparent_temperature_avg_in_c": 30.19,
+      "precipitation_sum_in_mm": 0.9,
+      "rain_sum_in_mm": 0.9,
+      "temperature_avg_in_c": 26.58,
+      "wind_speed_avg_in_kmh": 11.34
+    },
+    "moon_phase": "new",
+    "nearest_outpost": {
+      "distance_to_incident": 4577.47065377,
+      "latitude": -8.22359,
+      "longitude": -34.9263,
+      "name": "Posto 06 Jaboatão"
+    },
+    "next_to": "Paiva",
+    "previous_day_weather": {
+      "apparent_temperature_avg_in_c": 29.45,
+      "precipitation_sum_in_mm": 3.4,
+      "rain_sum_in_mm": 3.4,
+      "temperature_avg_in_c": 25.9,
+      "wind_speed_avg_in_kmh": 13.35
+    },
+    "tides": [
+      {
+        "height": -0.7578109267194146,
+        "time": "1993-03-26T23:41:00-03:00",
+        "type": "low"
+      },
+      {
+        "height": 0.7501016583370587,
+        "time": "1993-03-27T05:51:00-03:00",
+        "type": "high"
+      },
+      {
+        "height": -0.7614917683444076,
+        "time": "1993-03-27T12:01:00-03:00",
+        "type": "low"
+      },
+      {
+        "height": 0.6812863942804012,
+        "time": "1993-03-27T18:15:00-03:00",
+        "type": "high"
+      }
+    ],
+    "victim_survived": true,
+    "wound": "Pé"
+  },
+  {
+    "beach": "Boa Viagem",
+    "city": "Recife",
+    "date": "1993-06-30",
+    "id": "17cb54e2-be5b-4135-9a69-d2ed4cc37377",
+    "incident_day_weather": {
+      "apparent_temperature_avg_in_c": 28.02,
+      "precipitation_sum_in_mm": 0.4,
+      "rain_sum_in_mm": 0.4,
+      "temperature_avg_in_c": 24.87,
+      "wind_speed_avg_in_kmh": 10.3
+    },
+    "moon_phase": "waxing",
+    "nearest_outpost": {
+      "distance_to_incident": 220.47999029,
+      "latitude": -8.12717,
+      "longitude": -34.8977,
+      "name": "Posto 08 Recife"
+    },
+    "next_to": "Castelinho",
+    "previous_day_weather": {
+      "apparent_temperature_avg_in_c": 27.52,
+      "precipitation_sum_in_mm": 1.6,
+      "rain_sum_in_mm": 1.6,
+      "temperature_avg_in_c": 24.74,
+      "wind_speed_avg_in_kmh": 12.07
+    },
+    "tides": [
+      {
+        "height": 0.7490657915834283,
+        "time": "1993-06-30T00:42:00-03:00",
+        "type": "high"
+      },
+      {
+        "height": -0.7956866266321786,
+        "time": "1993-06-30T07:05:00-03:00",
+        "type": "low"
+      },
+      {
+        "height": 0.7607970577980085,
+        "time": "1993-06-30T13:17:00-03:00",
+        "type": "high"
+      },
+      {
+        "height": -0.7590746699857528,
+        "time": "1993-06-30T19:31:00-03:00",
+        "type": "low"
+      }
+    ],
+    "victim_survived": false,
+    "wound": "Coxa"
+  },
+  {
+    "beach": "Piedade",
+    "city": "Jaboatão dos Guararapes",
+    "date": "1994-02-01",
+    "id": "a933d6b4-1afe-4935-8e5f-eb9b8ed7d314",
+    "incident_day_weather": {
+      "apparent_temperature_avg_in_c": 29.59,
+      "precipitation_sum_in_mm": 0.0,
+      "rain_sum_in_mm": 0.0,
+      "temperature_avg_in_c": 26.66,
+      "wind_speed_avg_in_kmh": 13.24
+    },
+    "moon_phase": "waning",
+    "nearest_outpost": {
+      "distance_to_incident": 539.98651548,
+      "latitude": -8.17739,
+      "longitude": -34.9163,
+      "name": "Posto 05 Jaboatão"
+    },
+    "next_to": null,
+    "previous_day_weather": {
+      "apparent_temperature_avg_in_c": 29.48,
+      "precipitation_sum_in_mm": 0.0,
+      "rain_sum_in_mm": 0.0,
+      "temperature_avg_in_c": 26.58,
+      "wind_speed_avg_in_kmh": 16.32
+    },
+    "tides": [
+      {
+        "height": -0.9473013597164506,
+        "time": "1994-02-01T00:59:00-03:00",
+        "type": "low"
+      },
+      {
+        "height": 0.8944296164573169,
+        "time": "1994-02-01T07:09:00-03:00",
+        "type": "high"
+      },
+      {
+        "height": -0.8554411795235521,
+        "time": "1994-02-01T13:18:00-03:00",
+        "type": "low"
+      },
+      {
+        "height": 0.9232619301598846,
+        "time": "1994-02-01T19:34:00-03:00",
+        "type": "high"
+      }
+    ],
+    "victim_survived": true,
+    "wound": "Perna e pé"
+  },
+  {
+    "beach": "Boa Viagem",
+    "city": "Recife",
+    "date": "1994-03-01",
+    "id": "8e2c34bc-d5cd-4423-8abc-54a3812f6630",
+    "incident_day_weather": {
+      "apparent_temperature_avg_in_c": 31.5,
+      "precipitation_sum_in_mm": 1.7,
+      "rain_sum_in_mm": 1.7,
+      "temperature_avg_in_c": 27.3,
+      "wind_speed_avg_in_kmh": 9.63
+    },
+    "moon_phase": "waning",
+    "nearest_outpost": {
+      "distance_to_incident": 80.47406523,
+      "latitude": -8.11787,
+      "longitude": -34.893299999999996,
+      "name": "Posto 06 Recife Acaiaca"
+    },
+    "next_to": "Acaiaca",
+    "previous_day_weather": {
+      "apparent_temperature_avg_in_c": 31.66,
+      "precipitation_sum_in_mm": 1.2,
+      "rain_sum_in_mm": 1.2,
+      "temperature_avg_in_c": 27.56,
+      "wind_speed_avg_in_kmh": 10.73
+    },
+    "tides": [
+      {
+        "height": -1.0817731923750928,
+        "time": "1994-02-28T23:49:00-03:00",
+        "type": "low"
+      },
+      {
+        "height": 1.0525091127095283,
+        "time": "1994-03-01T05:58:00-03:00",
+        "type": "high"
+      },
+      {
+        "height": -1.033486595864506,
+        "time": "1994-03-01T12:07:00-03:00",
+        "type": "low"
+      },
+      {
+        "height": 1.0665993474242303,
+        "time": "1994-03-01T18:21:00-03:00",
+        "type": "high"
+      }
+    ],
+    "victim_survived": true,
+    "wound": "Perna"
+  },
+  {
+    "beach": "Boa Viagem",
+    "city": "Recife",
+    "date": "1994-07-08",
+    "id": "59c29fe3-fe63-4127-aed3-47cc44df587a",
+    "incident_day_weather": {
+      "apparent_temperature_avg_in_c": 27.02,
+      "precipitation_sum_in_mm": 8.5,
+      "rain_sum_in_mm": 8.5,
+      "temperature_avg_in_c": 23.98,
+      "wind_speed_avg_in_kmh": 12.4
+    },
+    "moon_phase": "new",
+    "nearest_outpost": {
+      "distance_to_incident": 220.47999029,
+      "latitude": -8.12717,
+      "longitude": -34.8977,
+      "name": "Posto 08 Recife"
+    },
+    "next_to": "Castelinho",
+    "previous_day_weather": {
+      "apparent_temperature_avg_in_c": 27.58,
+      "precipitation_sum_in_mm": 5.5,
+      "rain_sum_in_mm": 5.5,
+      "temperature_avg_in_c": 24.7,
+      "wind_speed_avg_in_kmh": 13.58
+    },
+    "tides": [
+      {
+        "height": -0.7532120692323822,
+        "time": "1994-07-07T21:14:00-03:00",
+        "type": "low"
+      },
+      {
+        "height": 0.8573592320236356,
+        "time": "1994-07-08T03:23:00-03:00",
+        "type": "high"
+      },
+      {
+        "height": -0.8952842325481153,
+        "time": "1994-07-08T09:39:00-03:00",
+        "type": "low"
+      },
+      {
+        "height": 0.795525239588829,
+        "time": "1994-07-08T15:48:00-03:00",
+        "type": "high"
+      }
+    ],
+    "victim_survived": true,
+    "wound": "Perna"
+  },
+  {
+    "beach": "Boa Viagem",
+    "city": "Recife",
+    "date": "1994-07-09",
+    "id": "fd02bebf-1906-4222-b1e9-b4471925f4bd",
+    "incident_day_weather": {
+      "apparent_temperature_avg_in_c": 26.5,
+      "precipitation_sum_in_mm": 0.9,
+      "rain_sum_in_mm": 0.9,
+      "temperature_avg_in_c": 24.68,
+      "wind_speed_avg_in_kmh": 15.67
+    },
+    "moon_phase": "new",
+    "nearest_outpost": {
+      "distance_to_incident": 220.47999029,
+      "latitude": -8.12717,
+      "longitude": -34.8977,
+      "name": "Posto 08 Recife"
+    },
+    "next_to": "Castelinho",
+    "previous_day_weather": {
+      "apparent_temperature_avg_in_c": 27.02,
+      "precipitation_sum_in_mm": 8.5,
+      "rain_sum_in_mm": 8.5,
+      "temperature_avg_in_c": 23.98,
+      "wind_speed_avg_in_kmh": 12.4
+    },
+    "tides": [
+      {
+        "height": -0.8082501739667854,
+        "time": "1994-07-08T21:50:00-03:00",
+        "type": "low"
+      },
+      {
+        "height": 0.9363972613927214,
+        "time": "1994-07-09T03:58:00-03:00",
+        "type": "high"
+      },
+      {
+        "height": -0.9560616461069733,
+        "time": "1994-07-09T10:15:00-03:00",
+        "type": "low"
+      },
+      {
+        "height": 0.8557015663807603,
+        "time": "1994-07-09T16:24:00-03:00",
+        "type": "high"
+      }
+    ],
+    "victim_survived": false,
+    "wound": "Tronco"
+  },
+  {
+    "beach": "Boa Viagem",
+    "city": "Recife",
+    "date": "1994-07-24",
+    "id": "ab7d2cf6-6180-4568-b2f7-358d96c97739",
+    "incident_day_weather": {
+      "apparent_temperature_avg_in_c": 27.27,
+      "precipitation_sum_in_mm": 3.5,
+      "rain_sum_in_mm": 3.5,
+      "temperature_avg_in_c": 24.5,
+      "wind_speed_avg_in_kmh": 12.98
+    },
+    "moon_phase": "full",
+    "nearest_outpost": {
+      "distance_to_incident": 80.47406523,
+      "latitude": -8.11787,
+      "longitude": -34.893299999999996,
+      "name": "Posto 06 Recife Acaiaca"
+    },
+    "next_to": "Acaiaca",
+    "previous_day_weather": {
+      "apparent_temperature_avg_in_c": 27.61,
+      "precipitation_sum_in_mm": 4.9,
+      "rain_sum_in_mm": 4.9,
+      "temperature_avg_in_c": 24.21,
+      "wind_speed_avg_in_kmh": 10.32
+    },
+    "tides": [
+      {
+        "height": -0.9355405827553799,
+        "time": "1994-07-23T22:32:00-03:00",
+        "type": "low"
+      },
+      {
+        "height": 1.089476975343177,
+        "time": "1994-07-24T04:40:00-03:00",
+        "type": "high"
+      },
+      {
+        "height": -1.0480498589292648,
+        "time": "1994-07-24T10:59:00-03:00",
+        "type": "low"
+      },
+      {
+        "height": 0.9226694018572054,
+        "time": "1994-07-24T17:06:00-03:00",
+        "type": "high"
+      }
+    ],
+    "victim_survived": true,
+    "wound": "Pé decepado"
+  },
+  {
+    "beach": "Piedade",
+    "city": "Jaboatão dos Guararapes",
+    "date": "1994-10-17",
+    "id": "9d66e01d-85d5-4902-b7ae-6e2cdff29963",
+    "incident_day_weather": {
+      "apparent_temperature_avg_in_c": 27.15,
+      "precipitation_sum_in_mm": 2.3,
+      "rain_sum_in_mm": 2.3,
+      "temperature_avg_in_c": 25.05,
+      "wind_speed_avg_in_kmh": 16.96
+    },
+    "moon_phase": "full",
+    "nearest_outpost": {
+      "distance_to_incident": 27.29103098,
+      "latitude": -8.16968,
+      "longitude": -34.914100000000005,
+      "name": "Posto 04 Jaboatão Igrejinha"
+    },
+    "next_to": "Igreja de Piedade",
+    "previous_day_weather": {
+      "apparent_temperature_avg_in_c": 27.44,
+      "precipitation_sum_in_mm": 2.5,
+      "rain_sum_in_mm": 2.5,
+      "temperature_avg_in_c": 25.05,
+      "wind_speed_avg_in_kmh": 14.32
+    },
+    "tides": null,
+    "victim_survived": true,
+    "wound": "Pé"
+  },
+  {
+    "beach": "Piedade",
+    "city": "Jaboatão dos Guararapes",
+    "date": "1994-10-18",
+    "id": "c505cfc5-a031-4efa-9e28-0b8c1b4962cf",
+    "incident_day_weather": {
+      "apparent_temperature_avg_in_c": 26.98,
+      "precipitation_sum_in_mm": 0.8,
+      "rain_sum_in_mm": 0.8,
+      "temperature_avg_in_c": 25.24,
+      "wind_speed_avg_in_kmh": 17.95
+    },
+    "moon_phase": "full",
+    "nearest_outpost": {
+      "distance_to_incident": 539.98651548,
+      "latitude": -8.17739,
+      "longitude": -34.9163,
+      "name": "Posto 05 Jaboatão"
+    },
+    "next_to": null,
+    "previous_day_weather": {
+      "apparent_temperature_avg_in_c": 27.14,
+      "precipitation_sum_in_mm": 2.3,
+      "rain_sum_in_mm": 2.3,
+      "temperature_avg_in_c": 25.0,
+      "wind_speed_avg_in_kmh": 16.96
+    },
+    "tides": null,
+    "victim_survived": true,
+    "wound": "Pé"
+  },
+  {
+    "beach": "Paiva ",
+    "city": "Cabo de Santo Agostinho",
+    "date": "1994-12-01",
+    "id": "bf0f24fb-463d-46f5-a553-4959287f2051",
+    "incident_day_weather": {
+      "apparent_temperature_avg_in_c": 26.83,
+      "precipitation_sum_in_mm": 2.2,
+      "rain_sum_in_mm": 2.2,
+      "temperature_avg_in_c": 25.26,
+      "wind_speed_avg_in_kmh": 20.51
+    },
+    "moon_phase": "new",
+    "nearest_outpost": {
+      "distance_to_incident": 4577.47065377,
+      "latitude": -8.22359,
+      "longitude": -34.9263,
+      "name": "Posto 06 Jaboatão"
+    },
+    "next_to": "Paiva",
+    "previous_day_weather": {
+      "apparent_temperature_avg_in_c": 28.26,
+      "precipitation_sum_in_mm": 1.7,
+      "rain_sum_in_mm": 1.7,
+      "temperature_avg_in_c": 25.56,
+      "wind_speed_avg_in_kmh": 16.53
+    },
+    "tides": null,
+    "victim_survived": false,
+    "wound": "Coxa"
+  },
+  {
+    "beach": "Paiva ",
+    "city": "Cabo de Santo Agostinho",
+    "date": "1994-12-11",
+    "id": "e2457939-11b2-47ea-907d-62ca0e592719",
+    "incident_day_weather": {
+      "apparent_temperature_avg_in_c": 27.77,
+      "precipitation_sum_in_mm": 2.7,
+      "rain_sum_in_mm": 2.7,
+      "temperature_avg_in_c": 25.32,
+      "wind_speed_avg_in_kmh": 17.52
+    },
+    "moon_phase": "waxing",
+    "nearest_outpost": {
+      "distance_to_incident": 4577.47065377,
+      "latitude": -8.22359,
+      "longitude": -34.9263,
+      "name": "Posto 06 Jaboatão"
+    },
+    "next_to": "Paiva",
+    "previous_day_weather": {
+      "apparent_temperature_avg_in_c": 27.65,
+      "precipitation_sum_in_mm": 2.8,
+      "rain_sum_in_mm": 2.8,
+      "temperature_avg_in_c": 25.41,
+      "wind_speed_avg_in_kmh": 16.67
+    },
+    "tides": null,
+    "victim_survived": true,
+    "wound": "Coxa"
+  },
+  {
+    "beach": "Piedade",
+    "city": "Jaboatão dos Guararapes",
+    "date": "1994-12-13",
+    "id": "4aa3e1ed-45c0-40ac-9d16-49e7a38e0d51",
+    "incident_day_weather": {
+      "apparent_temperature_avg_in_c": 27.68,
+      "precipitation_sum_in_mm": 0.0,
+      "rain_sum_in_mm": 0.0,
+      "temperature_avg_in_c": 25.62,
+      "wind_speed_avg_in_kmh": 15.08
+    },
+    "moon_phase": "full",
+    "nearest_outpost": {
+      "distance_to_incident": 252.01977813,
+      "latitude": -8.15972,
+      "longitude": -34.9111,
+      "name": "Posto 02 Jaboatão"
+    },
+    "next_to": "Prox. Hosp. Aeronáutica",
+    "previous_day_weather": {
+      "apparent_temperature_avg_in_c": 27.31,
+      "precipitation_sum_in_mm": 2.1,
+      "rain_sum_in_mm": 2.1,
+      "temperature_avg_in_c": 25.41,
+      "wind_speed_avg_in_kmh": 17.85
+    },
+    "tides": null,
+    "victim_survived": true,
+    "wound": "Perna"
+  },
+  {
+    "beach": "Piedade",
+    "city": "Jaboatão dos Guararapes",
+    "date": "1995-01-02",
+    "id": "773a201f-5c82-44ef-977e-efeb7f563f53",
+    "incident_day_weather": {
+      "apparent_temperature_avg_in_c": 28.65,
+      "precipitation_sum_in_mm": 3.1,
+      "rain_sum_in_mm": 3.1,
+      "temperature_avg_in_c": 25.24,
+      "wind_speed_avg_in_kmh": 13.98
+    },
+    "moon_phase": "new",
+    "nearest_outpost": {
+      "distance_to_incident": 539.98651548,
+      "latitude": -8.17739,
+      "longitude": -34.9163,
+      "name": "Posto 05 Jaboatão"
+    },
+    "next_to": "Bar Picanha do Tio Dadá ",
+    "previous_day_weather": {
+      "apparent_temperature_avg_in_c": 28.87,
+      "precipitation_sum_in_mm": 2.6,
+      "rain_sum_in_mm": 2.6,
+      "temperature_avg_in_c": 25.63,
+      "wind_speed_avg_in_kmh": 14.04
+    },
+    "tides": null,
+    "victim_survived": true,
+    "wound": "Perna"
+  },
+  {
+    "beach": "Candeias ",
+    "city": "Jaboatão dos Guararapes",
+    "date": "1995-07-07",
+    "id": "ab64ca48-f774-4352-a2a2-8d7bf236002c",
+    "incident_day_weather": {
+      "apparent_temperature_avg_in_c": 26.71,
+      "precipitation_sum_in_mm": 0.6,
+      "rain_sum_in_mm": 0.6,
+      "temperature_avg_in_c": 25.19,
+      "wind_speed_avg_in_kmh": 19.42
+    },
+    "moon_phase": "waxing",
+    "nearest_outpost": {
+      "distance_to_incident": 2045.12675089,
+      "latitude": -8.19623,
+      "longitude": -34.9174,
+      "name": "Posto Mercado do Peixe"
+    },
+    "next_to": "Danger",
+    "previous_day_weather": {
+      "apparent_temperature_avg_in_c": 26.75,
+      "precipitation_sum_in_mm": 4.6,
+      "rain_sum_in_mm": 4.6,
+      "temperature_avg_in_c": 24.57,
+      "wind_speed_avg_in_kmh": 17.3
+    },
+    "tides": null,
+    "victim_survived": false,
+    "wound": "Braço"
+  },
+  {
+    "beach": "Boa Viagem",
+    "city": "Recife",
+    "date": "1995-08-27",
+    "id": "8ab1925f-75a7-43b9-bcd8-ee5744ebf0b3",
+    "incident_day_weather": {
+      "apparent_temperature_avg_in_c": 25.92,
+      "precipitation_sum_in_mm": 4.8,
+      "rain_sum_in_mm": 4.8,
+      "temperature_avg_in_c": 24.27,
+      "wind_speed_avg_in_kmh": 18.83
+    },
+    "moon_phase": "new",
+    "nearest_outpost": {
+      "distance_to_incident": 1684.61004205,
+      "latitude": -8.132,
+      "longitude": -34.8998,
+      "name": "Posto 10 Recife Praca Boa Viagem"
+    },
+    "next_to": "2º Jardim",
+    "previous_day_weather": {
+      "apparent_temperature_avg_in_c": 25.37,
+      "precipitation_sum_in_mm": 3.4,
+      "rain_sum_in_mm": 3.4,
+      "temperature_avg_in_c": 23.92,
+      "wind_speed_avg_in_kmh": 18.84
+    },
+    "tides": null,
+    "victim_survived": true,
+    "wound": "Coxa e antebraço"
+  },
+  {
+    "beach": "Boa Viagem",
+    "city": "Recife",
+    "date": "1996-04-07",
+    "id": "693a09d4-aad2-49e5-adaf-5f676882de60",
+    "incident_day_weather": {
+      "apparent_temperature_avg_in_c": 31.2,
+      "precipitation_sum_in_mm": 4.2,
+      "rain_sum_in_mm": 4.2,
+      "temperature_avg_in_c": 26.64,
+      "wind_speed_avg_in_kmh": 10.06
+    },
+    "moon_phase": "waning",
+    "nearest_outpost": {
+      "distance_to_incident": 289.07454896,
+      "latitude": -8.132,
+      "longitude": -34.8998,
+      "name": "Posto 10 Recife Praca Boa Viagem"
+    },
+    "next_to": "nº 2802",
+    "previous_day_weather": {
+      "apparent_temperature_avg_in_c": 31.34,
+      "precipitation_sum_in_mm": 7.0,
+      "rain_sum_in_mm": 7.0,
+      "temperature_avg_in_c": 26.69,
+      "wind_speed_avg_in_kmh": 7.01
+    },
+    "tides": null,
+    "victim_survived": false,
+    "wound": "Tronco e coxa"
+  },
+  {
+    "beach": "Barra de Jangada",
+    "city": "Jaboatão dos Guararapes",
+    "date": "1996-10-28",
+    "id": "931a8436-d668-43f4-b023-0b5412e84488",
+    "incident_day_weather": {
+      "apparent_temperature_avg_in_c": 28.25,
+      "precipitation_sum_in_mm": 0.8,
+      "rain_sum_in_mm": 0.8,
+      "temperature_avg_in_c": 25.7,
+      "wind_speed_avg_in_kmh": 14.88
+    },
+    "moon_phase": "full",
+    "nearest_outpost": {
+      "distance_to_incident": 232.56736023,
+      "latitude": -8.19623,
+      "longitude": -34.9174,
+      "name": "Posto Mercado do Peixe"
+    },
+    "next_to": "Restaurante Costa do Sol",
+    "previous_day_weather": {
+      "apparent_temperature_avg_in_c": 28.2,
+      "precipitation_sum_in_mm": 1.9,
+      "rain_sum_in_mm": 1.9,
+      "temperature_avg_in_c": 25.65,
+      "wind_speed_avg_in_kmh": 15.47
+    },
+    "tides": null,
+    "victim_survived": true,
+    "wound": "Perna"
+  },
+  {
+    "beach": "Barra de Jangada",
+    "city": "Jaboatão dos Guararapes",
+    "date": "1996-10-28",
+    "id": "413d609f-b5d6-4d65-9762-32ff24f34ed4",
+    "incident_day_weather": {
+      "apparent_temperature_avg_in_c": 28.25,
+      "precipitation_sum_in_mm": 0.8,
+      "rain_sum_in_mm": 0.8,
+      "temperature_avg_in_c": 25.7,
+      "wind_speed_avg_in_kmh": 14.88
+    },
+    "moon_phase": "full",
+    "nearest_outpost": {
+      "distance_to_incident": 232.56736023,
+      "latitude": -8.19623,
+      "longitude": -34.9174,
+      "name": "Posto Mercado do Peixe"
+    },
+    "next_to": "Restaurante Costa do Sol",
+    "previous_day_weather": {
+      "apparent_temperature_avg_in_c": 28.2,
+      "precipitation_sum_in_mm": 1.9,
+      "rain_sum_in_mm": 1.9,
+      "temperature_avg_in_c": 25.65,
+      "wind_speed_avg_in_kmh": 15.47
+    },
+    "tides": null,
+    "victim_survived": true,
+    "wound": "Mão"
+  },
+  {
+    "beach": "Boa Viagem",
+    "city": "Recife",
+    "date": "1997-05-17",
+    "id": "fec71bc3-469e-44fd-b0b2-58163f8d2681",
+    "incident_day_weather": {
+      "apparent_temperature_avg_in_c": 27.58,
+      "precipitation_sum_in_mm": 1.8,
+      "rain_sum_in_mm": 1.8,
+      "temperature_avg_in_c": 24.83,
+      "wind_speed_avg_in_kmh": 17.76
+    },
+    "moon_phase": "full",
+    "nearest_outpost": {
+      "distance_to_incident": 80.47406523,
+      "latitude": -8.11787,
+      "longitude": -34.893299999999996,
+      "name": "Posto 06 Recife Acaiaca"
+    },
+    "next_to": "Acaiaca",
+    "previous_day_weather": {
+      "apparent_temperature_avg_in_c": 27.2,
+      "precipitation_sum_in_mm": 2.7,
+      "rain_sum_in_mm": 2.7,
+      "temperature_avg_in_c": 24.93,
+      "wind_speed_avg_in_kmh": 17.31
+    },
+    "tides": null,
+    "victim_survived": true,
+    "wound": "Antebraço esquerdo"
+  },
+  {
+    "beach": "Paiva ",
+    "city": "Cabo de Santo Agostinho",
+    "date": "1997-07-02",
+    "id": "426bcea8-790f-47f0-b5f1-f0eda5e74a74",
+    "incident_day_weather": {
+      "apparent_temperature_avg_in_c": 25.49,
+      "precipitation_sum_in_mm": 0.0,
+      "rain_sum_in_mm": 0.0,
+      "temperature_avg_in_c": 24.66,
+      "wind_speed_avg_in_kmh": 16.83
+    },
+    "moon_phase": "new",
+    "nearest_outpost": {
+      "distance_to_incident": 4577.47065377,
+      "latitude": -8.22359,
+      "longitude": -34.9263,
+      "name": "Posto 06 Jaboatão"
+    },
+    "next_to": "Paiva",
+    "previous_day_weather": {
+      "apparent_temperature_avg_in_c": 26.14,
+      "precipitation_sum_in_mm": 0.5,
+      "rain_sum_in_mm": 0.5,
+      "temperature_avg_in_c": 24.59,
+      "wind_speed_avg_in_kmh": 17.2
+    },
+    "tides": null,
+    "victim_survived": true,
+    "wound": "Perna"
+  },
+  {
+    "beach": "Boa Viagem",
+    "city": "Recife",
+    "date": "1997-09-16",
+    "id": "6669f134-dc24-4d6f-8ffc-15a43a2a6109",
+    "incident_day_weather": {
+      "apparent_temperature_avg_in_c": 27.22,
+      "precipitation_sum_in_mm": 0.0,
+      "rain_sum_in_mm": 0.0,
+      "temperature_avg_in_c": 25.25,
+      "wind_speed_avg_in_kmh": 13.22
+    },
+    "moon_phase": "full",
+    "nearest_outpost": {
+      "distance_to_incident": 289.07454896,
+      "latitude": -8.132,
+      "longitude": -34.8998,
+      "name": "Posto 10 Recife Praca Boa Viagem"
+    },
+    "next_to": "Barraca de coco nº 29",
+    "previous_day_weather": {
+      "apparent_temperature_avg_in_c": 27.77,
+      "precipitation_sum_in_mm": 2.7,
+      "rain_sum_in_mm": 2.7,
+      "temperature_avg_in_c": 25.3,
+      "wind_speed_avg_in_kmh": 14.67
+    },
+    "tides": null,
+    "victim_survived": false,
+    "wound": "Tronco e braço"
+  },
+  {
+    "beach": "Boa Viagem",
+    "city": "Recife",
+    "date": "1998-04-01",
+    "id": "da36c4c8-e75d-45ac-b406-643bf23ee46e",
+    "incident_day_weather": {
+      "apparent_temperature_avg_in_c": 32.43,
+      "precipitation_sum_in_mm": 2.3,
+      "rain_sum_in_mm": 2.3,
+      "temperature_avg_in_c": 28.2,
+      "wind_speed_avg_in_kmh": 13.9
+    },
+    "moon_phase": "new",
+    "nearest_outpost": {
+      "distance_to_incident": 1684.61004205,
+      "latitude": -8.132,
+      "longitude": -34.8998,
+      "name": "Posto 10 Recife Praca Boa Viagem"
+    },
+    "next_to": "2º Jardim",
+    "previous_day_weather": {
+      "apparent_temperature_avg_in_c": 32.2,
+      "precipitation_sum_in_mm": 1.6,
+      "rain_sum_in_mm": 1.6,
+      "temperature_avg_in_c": 27.87,
+      "wind_speed_avg_in_kmh": 12.21
+    },
+    "tides": null,
+    "victim_survived": false,
+    "wound": "Tronco,braço e perna"
+  },
+  {
+    "beach": "Boa Viagem",
+    "city": "Recife",
+    "date": "1998-07-26",
+    "id": "4f637a77-6163-4a2d-ba06-e933496846c5",
+    "incident_day_weather": {
+      "apparent_temperature_avg_in_c": 25.46,
+      "precipitation_sum_in_mm": 3.7,
+      "rain_sum_in_mm": 3.7,
+      "temperature_avg_in_c": 23.65,
+      "wind_speed_avg_in_kmh": 16.6
+    },
+    "moon_phase": "new",
+    "nearest_outpost": {
+      "distance_to_incident": 817.61379657,
+      "latitude": -8.12717,
+      "longitude": -34.8977,
+      "name": "Posto 08 Recife"
+    },
+    "next_to": "Ed. Vilas Boas",
+    "previous_day_weather": {
+      "apparent_temperature_avg_in_c": 25.68,
+      "precipitation_sum_in_mm": 6.2,
+      "rain_sum_in_mm": 6.2,
+      "temperature_avg_in_c": 23.8,
+      "wind_speed_avg_in_kmh": 17.55
+    },
+    "tides": null,
+    "victim_survived": true,
+    "wound": "Pé"
+  },
+  {
+    "beach": "Boa Viagem",
+    "city": "Recife",
+    "date": "1998-10-04",
+    "id": "d51d4916-a595-4f74-8e43-3d17964bda81",
+    "incident_day_weather": {
+      "apparent_temperature_avg_in_c": 27.87,
+      "precipitation_sum_in_mm": 4.1,
+      "rain_sum_in_mm": 4.1,
+      "temperature_avg_in_c": 25.57,
+      "wind_speed_avg_in_kmh": 17.09
+    },
+    "moon_phase": "full",
+    "nearest_outpost": {
+      "distance_to_incident": 239.27690826,
+      "latitude": -8.12717,
+      "longitude": -34.8977,
+      "name": "Posto 08 Recife"
+    },
+    "next_to": "Hotel Grand Mercure",
+    "previous_day_weather": {
+      "apparent_temperature_avg_in_c": 28.03,
+      "precipitation_sum_in_mm": 3.0,
+      "rain_sum_in_mm": 3.0,
+      "temperature_avg_in_c": 25.37,
+      "wind_speed_avg_in_kmh": 14.66
+    },
+    "tides": null,
+    "victim_survived": true,
+    "wound": "Coxa e perna"
+  },
+  {
+    "beach": "Boa Viagem",
+    "city": "Recife",
+    "date": "1998-11-02",
+    "id": "0553a2f3-ec39-4f7b-ba51-3c23f5af8deb",
+    "incident_day_weather": {
+      "apparent_temperature_avg_in_c": 28.83,
+      "precipitation_sum_in_mm": 0.0,
+      "rain_sum_in_mm": 0.0,
+      "temperature_avg_in_c": 27.06,
+      "wind_speed_avg_in_kmh": 17.37
+    },
+    "moon_phase": "full",
+    "nearest_outpost": {
+      "distance_to_incident": 1684.61004205,
+      "latitude": -8.132,
+      "longitude": -34.8998,
+      "name": "Posto 10 Recife Praca Boa Viagem"
+    },
+    "next_to": "2º Jardim",
+    "previous_day_weather": {
+      "apparent_temperature_avg_in_c": 28.86,
+      "precipitation_sum_in_mm": 0.1,
+      "rain_sum_in_mm": 0.1,
+      "temperature_avg_in_c": 26.9,
+      "wind_speed_avg_in_kmh": 16.41
+    },
+    "tides": null,
+    "victim_survived": false,
+    "wound": "Coxa e braço"
+  },
+  {
+    "beach": "Boa Viagem",
+    "city": "Recife",
+    "date": "1999-05-01",
+    "id": "7b22ada4-5a12-451f-b63d-8a439fc1c33b",
+    "incident_day_weather": {
+      "apparent_temperature_avg_in_c": 29.7,
+      "precipitation_sum_in_mm": 2.3,
+      "rain_sum_in_mm": 2.3,
+      "temperature_avg_in_c": 25.5,
+      "wind_speed_avg_in_kmh": 9.57
+    },
+    "moon_phase": "full",
+    "nearest_outpost": {
+      "distance_to_incident": 80.47406523,
+      "latitude": -8.11787,
+      "longitude": -34.893299999999996,
+      "name": "Posto 06 Recife Acaiaca"
+    },
+    "next_to": "Acaiaca",
+    "previous_day_weather": {
+      "apparent_temperature_avg_in_c": 29.38,
+      "precipitation_sum_in_mm": 4.6,
+      "rain_sum_in_mm": 4.6,
+      "temperature_avg_in_c": 25.29,
+      "wind_speed_avg_in_kmh": 9.56
+    },
+    "tides": null,
+    "victim_survived": true,
+    "wound": "Mãos e perna"
+  },
+  {
+    "beach": "Boa Viagem",
+    "city": "Recife",
+    "date": "1999-12-26",
+    "id": "680e96aa-7aae-48c6-87f6-3a6373a2470c",
+    "incident_day_weather": {
+      "apparent_temperature_avg_in_c": 29.2,
+      "precipitation_sum_in_mm": 1.5,
+      "rain_sum_in_mm": 1.5,
+      "temperature_avg_in_c": 26.26,
+      "wind_speed_avg_in_kmh": 14.43
+    },
+    "moon_phase": "full",
+    "nearest_outpost": {
+      "distance_to_incident": 1.81838699,
+      "latitude": -8.11787,
+      "longitude": -34.893299999999996,
+      "name": "Posto 06 Recife Acaiaca"
+    },
+    "next_to": "Posto 6",
+    "previous_day_weather": {
+      "apparent_temperature_avg_in_c": 29.82,
+      "precipitation_sum_in_mm": 0.7,
+      "rain_sum_in_mm": 0.7,
+      "temperature_avg_in_c": 26.98,
+      "wind_speed_avg_in_kmh": 14.48
+    },
+    "tides": null,
+    "victim_survived": true,
+    "wound": "Perna"
+  },
+  {
+    "beach": "Boa Viagem",
+    "city": "Recife",
+    "date": "2001-03-03",
+    "id": "f873f6dd-6b3f-49bc-a23a-5bf48bcdc111",
+    "incident_day_weather": {
+      "apparent_temperature_avg_in_c": 30.94,
+      "precipitation_sum_in_mm": 0.5,
+      "rain_sum_in_mm": 0.5,
+      "temperature_avg_in_c": 27.5,
+      "wind_speed_avg_in_kmh": 12.94
+    },
+    "moon_phase": "waxing",
+    "nearest_outpost": {
+      "distance_to_incident": 80.47406523,
+      "latitude": -8.11787,
+      "longitude": -34.893299999999996,
+      "name": "Posto 06 Recife Acaiaca"
+    },
+    "next_to": "Acaiaca",
+    "previous_day_weather": {
+      "apparent_temperature_avg_in_c": 30.9,
+      "precipitation_sum_in_mm": 0.5,
+      "rain_sum_in_mm": 0.5,
+      "temperature_avg_in_c": 27.61,
+      "wind_speed_avg_in_kmh": 14.43
+    },
+    "tides": null,
+    "victim_survived": false,
+    "wound": "Tronco,braço e perna"
+  },
+  {
+    "beach": "Candeias ",
+    "city": "Jaboatão dos Guararapes",
+    "date": "2002-01-03",
+    "id": "380704cc-382c-4ca7-b5b9-c333af6869a2",
+    "incident_day_weather": {
+      "apparent_temperature_avg_in_c": 29.99,
+      "precipitation_sum_in_mm": 3.1,
+      "rain_sum_in_mm": 3.1,
+      "temperature_avg_in_c": 26.65,
+      "wind_speed_avg_in_kmh": 15.83
+    },
+    "moon_phase": "new",
+    "nearest_outpost": {
+      "distance_to_incident": 2045.12675089,
+      "latitude": -8.19623,
+      "longitude": -34.9174,
+      "name": "Posto Mercado do Peixe"
+    },
+    "next_to": null,
+    "previous_day_weather": {
+      "apparent_temperature_avg_in_c": 30.59,
+      "precipitation_sum_in_mm": 2.5,
+      "rain_sum_in_mm": 2.5,
+      "temperature_avg_in_c": 26.8,
+      "wind_speed_avg_in_kmh": 13.7
+    },
+    "tides": null,
+    "victim_survived": false,
+    "wound": "Tronco"
+  },
+  {
+    "beach": "Boa Viagem",
+    "city": "Recife",
+    "date": "2002-03-24",
+    "id": "0806b408-1372-47b5-b55d-e2d8325c00dc",
+    "incident_day_weather": {
+      "apparent_temperature_avg_in_c": 30.58,
+      "precipitation_sum_in_mm": 3.0,
+      "rain_sum_in_mm": 3.0,
+      "temperature_avg_in_c": 26.42,
+      "wind_speed_avg_in_kmh": 9.65
+    },
+    "moon_phase": "waxing",
+    "nearest_outpost": {
+      "distance_to_incident": 80.47406523,
+      "latitude": -8.11787,
+      "longitude": -34.893299999999996,
+      "name": "Posto 06 Recife Acaiaca"
+    },
+    "next_to": "Acaiaca",
+    "previous_day_weather": {
+      "apparent_temperature_avg_in_c": 30.37,
+      "precipitation_sum_in_mm": 11.5,
+      "rain_sum_in_mm": 11.5,
+      "temperature_avg_in_c": 25.97,
+      "wind_speed_avg_in_kmh": 9.06
+    },
+    "tides": null,
+    "victim_survived": false,
+    "wound": "Perna e panturilha"
+  },
+  {
+    "beach": "Pina",
+    "city": "Recife",
+    "date": "2002-05-10",
+    "id": "5deff970-2d8f-4222-8555-fe7565fc2bf0",
+    "incident_day_weather": {
+      "apparent_temperature_avg_in_c": 29.96,
+      "precipitation_sum_in_mm": 2.7,
+      "rain_sum_in_mm": 2.7,
+      "temperature_avg_in_c": 25.8,
+      "wind_speed_avg_in_kmh": 11.92
+    },
+    "moon_phase": "new",
+    "nearest_outpost": {
+      "distance_to_incident": 490.57541429,
+      "latitude": -8.08109,
+      "longitude": -34.876599999999996,
+      "name": "Posto 01 Recife Buraco da Velha"
+    },
+    "next_to": "Brasília Teimosa",
+    "previous_day_weather": {
+      "apparent_temperature_avg_in_c": 29.69,
+      "precipitation_sum_in_mm": 2.5,
+      "rain_sum_in_mm": 2.5,
+      "temperature_avg_in_c": 25.91,
+      "wind_speed_avg_in_kmh": 11.83
+    },
+    "tides": null,
+    "victim_survived": true,
+    "wound": "Perna"
+  },
+  {
+    "beach": "Piedade",
+    "city": "Jaboatão dos Guararapes",
+    "date": "2002-07-09",
+    "id": "247d69f5-143a-4c34-913c-fd61e53cf0a0",
+    "incident_day_weather": {
+      "apparent_temperature_avg_in_c": 27.03,
+      "precipitation_sum_in_mm": 14.9,
+      "rain_sum_in_mm": 14.9,
+      "temperature_avg_in_c": 23.39,
+      "wind_speed_avg_in_kmh": 9.57
+    },
+    "moon_phase": "new",
+    "nearest_outpost": {
+      "distance_to_incident": 252.01977813,
+      "latitude": -8.15972,
+      "longitude": -34.9111,
+      "name": "Posto 02 Jaboatão"
+    },
+    "next_to": "Prox. Hosp. Aeronáutica",
+    "previous_day_weather": {
+      "apparent_temperature_avg_in_c": 27.2,
+      "precipitation_sum_in_mm": 4.6,
+      "rain_sum_in_mm": 4.6,
+      "temperature_avg_in_c": 24.15,
+      "wind_speed_avg_in_kmh": 12.46
+    },
+    "tides": null,
+    "victim_survived": true,
+    "wound": "Mãos e antebraço"
+  },
+  {
+    "beach": "Piedade",
+    "city": "Jaboatão dos Guararapes",
+    "date": "2002-09-16",
+    "id": "b8abf2f7-badf-4314-a156-774e66dd2263",
+    "incident_day_weather": {
+      "apparent_temperature_avg_in_c": 26.44,
+      "precipitation_sum_in_mm": 2.4,
+      "rain_sum_in_mm": 2.4,
+      "temperature_avg_in_c": 24.38,
+      "wind_speed_avg_in_kmh": 14.83
+    },
+    "moon_phase": "waxing",
+    "nearest_outpost": {
+      "distance_to_incident": 27.29103098,
+      "latitude": -8.16968,
+      "longitude": -34.914100000000005,
+      "name": "Posto 04 Jaboatão Igrejinha"
+    },
+    "next_to": "Igreja de Piedade",
+    "previous_day_weather": {
+      "apparent_temperature_avg_in_c": 26.27,
+      "precipitation_sum_in_mm": 0.1,
+      "rain_sum_in_mm": 0.1,
+      "temperature_avg_in_c": 25.18,
+      "wind_speed_avg_in_kmh": 14.45
+    },
+    "tides": null,
+    "victim_survived": true,
+    "wound": "Perna (amputada na coxa)"
+  },
+  {
+    "beach": "Piedade",
+    "city": "Jaboatão dos Guararapes",
+    "date": "2002-10-14",
+    "id": "a75c6cc7-b2e1-4e97-b4e7-4764a92b6d4e",
+    "incident_day_weather": {
+      "apparent_temperature_avg_in_c": 26.66,
+      "precipitation_sum_in_mm": 4.2,
+      "rain_sum_in_mm": 4.2,
+      "temperature_avg_in_c": 24.48,
+      "wind_speed_avg_in_kmh": 17.54
+    },
+    "moon_phase": "waxing",
+    "nearest_outpost": {
+      "distance_to_incident": 27.29103098,
+      "latitude": -8.16968,
+      "longitude": -34.914100000000005,
+      "name": "Posto 04 Jaboatão Igrejinha"
+    },
+    "next_to": "Igreja de Piedade",
+    "previous_day_weather": {
+      "apparent_temperature_avg_in_c": 27.12,
+      "precipitation_sum_in_mm": 1.2,
+      "rain_sum_in_mm": 1.2,
+      "temperature_avg_in_c": 24.6,
+      "wind_speed_avg_in_kmh": 12.59
+    },
+    "tides": null,
+    "victim_survived": false,
+    "wound": "Enc. Esq. de membros inferiores e pé"
+  },
+  {
+    "beach": "Pau Amarelo ",
+    "city": "Paulista",
+    "date": "2003-04-23",
+    "id": "07a8449b-5417-4dae-8536-5ad669ef8697",
+    "incident_day_weather": {
+      "apparent_temperature_avg_in_c": 28.89,
+      "precipitation_sum_in_mm": 2.3,
+      "rain_sum_in_mm": 2.3,
+      "temperature_avg_in_c": 26.44,
+      "wind_speed_avg_in_kmh": 17.9
+    },
+    "moon_phase": "waning",
+    "nearest_outpost": {
+      "distance_to_incident": 8151.8900031,
+      "latitude": -7.98438,
+      "longitude": -34.836200000000005,
+      "name": "Posto 03 Olinda"
+    },
+    "next_to": null,
+    "previous_day_weather": {
+      "apparent_temperature_avg_in_c": 29.06,
+      "precipitation_sum_in_mm": 5.6,
+      "rain_sum_in_mm": 5.6,
+      "temperature_avg_in_c": 26.16,
+      "wind_speed_avg_in_kmh": 17.97
+    },
+    "tides": null,
+    "victim_survived": true,
+    "wound": "Perna e panturilha"
+  },
+  {
+    "beach": "Piedade",
+    "city": "Jaboatão dos Guararapes",
+    "date": "2004-02-29",
+    "id": "2370d959-7f81-4e8d-ad75-1097f63fac50",
+    "incident_day_weather": {
+      "apparent_temperature_avg_in_c": 30.8,
+      "precipitation_sum_in_mm": 1.6,
+      "rain_sum_in_mm": 1.6,
+      "temperature_avg_in_c": 26.71,
+      "wind_speed_avg_in_kmh": 13.78
+    },
+    "moon_phase": "waxing",
+    "nearest_outpost": {
+      "distance_to_incident": 27.29103098,
+      "latitude": -8.16968,
+      "longitude": -34.914100000000005,
+      "name": "Posto 04 Jaboatão Igrejinha"
+    },
+    "next_to": "Igreja de Piedade",
+    "previous_day_weather": {
+      "apparent_temperature_avg_in_c": 30.21,
+      "precipitation_sum_in_mm": 9.1,
+      "rain_sum_in_mm": 9.1,
+      "temperature_avg_in_c": 26.09,
+      "wind_speed_avg_in_kmh": 11.12
+    },
+    "tides": null,
+    "victim_survived": false,
+    "wound": "Coxa"
+  },
+  {
+    "beach": "Boa Viagem",
+    "city": "Recife",
+    "date": "2004-03-29",
+    "id": "991de399-48ac-45ec-b009-08ddcf6262c7",
+    "incident_day_weather": {
+      "apparent_temperature_avg_in_c": 28.9,
+      "precipitation_sum_in_mm": 0.9,
+      "rain_sum_in_mm": 0.9,
+      "temperature_avg_in_c": 27.6,
+      "wind_speed_avg_in_kmh": 20.21
+    },
+    "moon_phase": "waxing",
+    "nearest_outpost": {
+      "distance_to_incident": 289.07454896,
+      "latitude": -8.132,
+      "longitude": -34.8998,
+      "name": "Posto 10 Recife Praca Boa Viagem"
+    },
+    "next_to": "1º Jardim",
+    "previous_day_weather": {
+      "apparent_temperature_avg_in_c": 28.08,
+      "precipitation_sum_in_mm": 1.2,
+      "rain_sum_in_mm": 1.2,
+      "temperature_avg_in_c": 27.19,
+      "wind_speed_avg_in_kmh": 20.97
+    },
+    "tides": null,
+    "victim_survived": true,
+    "wound": "Perna (panturilha)"
+  },
+  {
+    "beach": "Piedade",
+    "city": "Jaboatão dos Guararapes",
+    "date": "2004-05-01",
+    "id": "b1981d7c-025b-4b8d-af83-1660538771e0",
+    "incident_day_weather": {
+      "apparent_temperature_avg_in_c": 28.73,
+      "precipitation_sum_in_mm": 3.3,
+      "rain_sum_in_mm": 3.3,
+      "temperature_avg_in_c": 26.31,
+      "wind_speed_avg_in_kmh": 16.84
+    },
+    "moon_phase": "waxing",
+    "nearest_outpost": {
+      "distance_to_incident": 27.29103098,
+      "latitude": -8.16968,
+      "longitude": -34.914100000000005,
+      "name": "Posto 04 Jaboatão Igrejinha"
+    },
+    "next_to": "Igreja de Piedade",
+    "previous_day_weather": {
+      "apparent_temperature_avg_in_c": 28.5,
+      "precipitation_sum_in_mm": 7.4,
+      "rain_sum_in_mm": 7.4,
+      "temperature_avg_in_c": 25.4,
+      "wind_speed_avg_in_kmh": 15.26
+    },
+    "tides": null,
+    "victim_survived": false,
+    "wound": "Tronco,braço e perna"
+  },
+  {
+    "beach": "Piedade",
+    "city": "Jaboatão dos Guararapes",
+    "date": "2004-05-22",
+    "id": "4d5eb3c2-e588-4aef-bb5e-08350aa60cfc",
+    "incident_day_weather": {
+      "apparent_temperature_avg_in_c": 27.3,
+      "precipitation_sum_in_mm": 4.6,
+      "rain_sum_in_mm": 4.6,
+      "temperature_avg_in_c": 24.64,
+      "wind_speed_avg_in_kmh": 15.33
+    },
+    "moon_phase": "new",
+    "nearest_outpost": {
+      "distance_to_incident": 252.01977813,
+      "latitude": -8.15972,
+      "longitude": -34.9111,
+      "name": "Posto 02 Jaboatão"
+    },
+    "next_to": "Prox. Hosp. Aeronáutica",
+    "previous_day_weather": {
+      "apparent_temperature_avg_in_c": 28.19,
+      "precipitation_sum_in_mm": 0.0,
+      "rain_sum_in_mm": 0.0,
+      "temperature_avg_in_c": 25.75,
+      "wind_speed_avg_in_kmh": 15.68
+    },
+    "tides": null,
+    "victim_survived": true,
+    "wound": "Coxa e nádegas"
+  },
+  {
+    "beach": "Piedade",
+    "city": "Jaboatão dos Guararapes",
+    "date": "2004-05-23",
+    "id": "328b0d92-18d3-436f-8279-3ed5b161e92b",
+    "incident_day_weather": {
+      "apparent_temperature_avg_in_c": 27.98,
+      "precipitation_sum_in_mm": 2.9,
+      "rain_sum_in_mm": 2.9,
+      "temperature_avg_in_c": 24.85,
+      "wind_speed_avg_in_kmh": 12.35
+    },
+    "moon_phase": "new",
+    "nearest_outpost": {
+      "distance_to_incident": 27.29103098,
+      "latitude": -8.16968,
+      "longitude": -34.914100000000005,
+      "name": "Posto 04 Jaboatão Igrejinha"
+    },
+    "next_to": "Igreja de Piedade",
+    "previous_day_weather": {
+      "apparent_temperature_avg_in_c": 27.33,
+      "precipitation_sum_in_mm": 4.6,
+      "rain_sum_in_mm": 4.6,
+      "temperature_avg_in_c": 24.69,
+      "wind_speed_avg_in_kmh": 15.33
+    },
+    "tides": null,
+    "victim_survived": true,
+    "wound": "Mão e perna"
+  },
+  {
+    "beach": "Boa Viagem",
+    "city": "Recife",
+    "date": "2004-08-21",
+    "id": "020230aa-b519-4ba4-bb95-469a232f4118",
+    "incident_day_weather": {
+      "apparent_temperature_avg_in_c": 26.58,
+      "precipitation_sum_in_mm": 0.1,
+      "rain_sum_in_mm": 0.1,
+      "temperature_avg_in_c": 24.51,
+      "wind_speed_avg_in_kmh": 13.62
+    },
+    "moon_phase": "new",
+    "nearest_outpost": {
+      "distance_to_incident": 150.40442732,
+      "latitude": -8.12175,
+      "longitude": -34.8956,
+      "name": "Posto 07 Recife"
+    },
+    "next_to": "Edf. Portugal ",
+    "previous_day_weather": {
+      "apparent_temperature_avg_in_c": 26.13,
+      "precipitation_sum_in_mm": 2.4,
+      "rain_sum_in_mm": 2.4,
+      "temperature_avg_in_c": 24.35,
+      "wind_speed_avg_in_kmh": 16.38
+    },
+    "tides": null,
+    "victim_survived": true,
+    "wound": "Perna (panturilha) e Mão (dedo amputado)"
+  },
+  {
+    "beach": "Pina",
+    "city": "Recife",
+    "date": "2004-09-08",
+    "id": "4ee435ea-a86c-4f7a-8fb8-a8e4b19c0d45",
+    "incident_day_weather": {
+      "apparent_temperature_avg_in_c": 25.43,
+      "precipitation_sum_in_mm": 0.0,
+      "rain_sum_in_mm": 0.0,
+      "temperature_avg_in_c": 24.68,
+      "wind_speed_avg_in_kmh": 15.55
+    },
+    "moon_phase": "waning",
+    "nearest_outpost": {
+      "distance_to_incident": 490.57541429,
+      "latitude": -8.08109,
+      "longitude": -34.876599999999996,
+      "name": "Posto 01 Recife Buraco da Velha"
+    },
+    "next_to": "Brasília Teimosa",
+    "previous_day_weather": {
+      "apparent_temperature_avg_in_c": 24.91,
+      "precipitation_sum_in_mm": 0.0,
+      "rain_sum_in_mm": 0.0,
+      "temperature_avg_in_c": 24.42,
+      "wind_speed_avg_in_kmh": 18.74
+    },
+    "tides": null,
+    "victim_survived": false,
+    "wound": "?"
+  },
+  {
+    "beach": "Piedade",
+    "city": "Jaboatão dos Guararapes",
+    "date": "2006-04-09",
+    "id": "73422a9f-41b1-4468-9c1e-e1e07b1e86d9",
+    "incident_day_weather": {
+      "apparent_temperature_avg_in_c": 29.52,
+      "precipitation_sum_in_mm": 61.9,
+      "rain_sum_in_mm": 61.9,
+      "temperature_avg_in_c": 25.32,
+      "wind_speed_avg_in_kmh": 10.09
+    },
+    "moon_phase": "waxing",
+    "nearest_outpost": {
+      "distance_to_incident": 27.29103098,
+      "latitude": -8.16968,
+      "longitude": -34.914100000000005,
+      "name": "Posto 04 Jaboatão Igrejinha"
+    },
+    "next_to": "Igreja de Piedade",
+    "previous_day_weather": {
+      "apparent_temperature_avg_in_c": 30.05,
+      "precipitation_sum_in_mm": 9.4,
+      "rain_sum_in_mm": 9.4,
+      "temperature_avg_in_c": 26.43,
+      "wind_speed_avg_in_kmh": 14.12
+    },
+    "tides": null,
+    "victim_survived": true,
+    "wound": "Perna esquerda (Panturrilha e Pé)"
+  },
+  {
+    "beach": "Boa Viagem",
+    "city": "Recife",
+    "date": "2006-05-21",
+    "id": "ae41a506-b903-4295-8c12-251bdc8ff8e5",
+    "incident_day_weather": {
+      "apparent_temperature_avg_in_c": 26.98,
+      "precipitation_sum_in_mm": 3.5,
+      "rain_sum_in_mm": 3.5,
+      "temperature_avg_in_c": 25.37,
+      "wind_speed_avg_in_kmh": 22.18
+    },
+    "moon_phase": "waning",
+    "nearest_outpost": {
+      "distance_to_incident": 1684.61004205,
+      "latitude": -8.132,
+      "longitude": -34.8998,
+      "name": "Posto 10 Recife Praca Boa Viagem"
+    },
+    "next_to": "2º jardim",
+    "previous_day_weather": {
+      "apparent_temperature_avg_in_c": 27.07,
+      "precipitation_sum_in_mm": 0.6,
+      "rain_sum_in_mm": 0.6,
+      "temperature_avg_in_c": 25.58,
+      "wind_speed_avg_in_kmh": 20.42
+    },
+    "tides": null,
+    "victim_survived": true,
+    "wound": "Coxa esquerda (parte posterior) e perna esquerda (parte anterior)"
+  },
+  {
+    "beach": "Del Chifre",
+    "city": "Olinda",
+    "date": "2006-06-18",
+    "id": "b7c6cb89-660b-4896-8922-0529016a9dbf",
+    "incident_day_weather": {
+      "apparent_temperature_avg_in_c": 26.85,
+      "precipitation_sum_in_mm": 5.7,
+      "rain_sum_in_mm": 5.7,
+      "temperature_avg_in_c": 24.65,
+      "wind_speed_avg_in_kmh": 20.98
+    },
+    "moon_phase": "waning",
+    "nearest_outpost": {
+      "distance_to_incident": 1057.79988527,
+      "latitude": -8.01711,
+      "longitude": -34.8472,
+      "name": "Posto Carmo"
+    },
+    "next_to": "Praia de Del Chifre",
+    "previous_day_weather": {
+      "apparent_temperature_avg_in_c": 27.31,
+      "precipitation_sum_in_mm": 4.3,
+      "rain_sum_in_mm": 4.3,
+      "temperature_avg_in_c": 24.84,
+      "wind_speed_avg_in_kmh": 16.36
+    },
+    "tides": null,
+    "victim_survived": false,
+    "wound": "Coxa esquerda"
+  },
+  {
+    "beach": "Pontas de Pedras",
+    "city": " Goiana",
+    "date": "2006-07-10",
+    "id": "9b1730ce-d1a6-4272-8b56-4e8bae16baf0",
+    "incident_day_weather": {
+      "apparent_temperature_avg_in_c": 26.32,
+      "precipitation_sum_in_mm": 1.9,
+      "rain_sum_in_mm": 1.9,
+      "temperature_avg_in_c": 24.77,
+      "wind_speed_avg_in_kmh": 16.68
+    },
+    "moon_phase": "waxing",
+    "nearest_outpost": {
+      "distance_to_incident": 39184.41133868,
+      "latitude": -7.98438,
+      "longitude": -34.836200000000005,
+      "name": "Posto 03 Olinda"
+    },
+    "next_to": null,
+    "previous_day_weather": {
+      "apparent_temperature_avg_in_c": 25.93,
+      "precipitation_sum_in_mm": 6.8,
+      "rain_sum_in_mm": 6.8,
+      "temperature_avg_in_c": 24.22,
+      "wind_speed_avg_in_kmh": 20.58
+    },
+    "tides": null,
+    "victim_survived": false,
+    "wound": "Coxa e panturrilha direita, coxa esquerda, tronco, ombro e braço direito."
+  },
+  {
+    "beach": "Piedade",
+    "city": "Jaboatão dos Guararapes",
+    "date": "2008-06-01",
+    "id": "fc23c0cd-3183-4728-8177-7f79e3e80918",
+    "incident_day_weather": {
+      "apparent_temperature_avg_in_c": 26.37,
+      "precipitation_sum_in_mm": 3.4,
+      "rain_sum_in_mm": 3.4,
+      "temperature_avg_in_c": 24.86,
+      "wind_speed_avg_in_kmh": 20.04
+    },
+    "moon_phase": "new",
+    "nearest_outpost": {
+      "distance_to_incident": 27.29103098,
+      "latitude": -8.16968,
+      "longitude": -34.914100000000005,
+      "name": "Posto 04 Jaboatão Igrejinha"
+    },
+    "next_to": "Igreja de Piedade",
+    "previous_day_weather": {
+      "apparent_temperature_avg_in_c": 27.51,
+      "precipitation_sum_in_mm": 0.3,
+      "rain_sum_in_mm": 0.3,
+      "temperature_avg_in_c": 26.1,
+      "wind_speed_avg_in_kmh": 21.02
+    },
+    "tides": null,
+    "victim_survived": true,
+    "wound": "Nádegas, mão direita arrancada e bolsa escrotal levemente lesionada."
+  },
+  {
+    "beach": "Del Chifre",
+    "city": "Olinda",
+    "date": "2008-06-11",
+    "id": "36eb597f-6bb3-4b49-b506-c211803a6e06",
+    "incident_day_weather": {
+      "apparent_temperature_avg_in_c": 26.78,
+      "precipitation_sum_in_mm": 0.0,
+      "rain_sum_in_mm": 0.0,
+      "temperature_avg_in_c": 25.25,
+      "wind_speed_avg_in_kmh": 14.94
+    },
+    "moon_phase": "waxing",
+    "nearest_outpost": {
+      "distance_to_incident": 1057.79988527,
+      "latitude": -8.01711,
+      "longitude": -34.8472,
+      "name": "Posto Carmo"
+    },
+    "next_to": "Praia de Del Chifre",
+    "previous_day_weather": {
+      "apparent_temperature_avg_in_c": 26.9,
+      "precipitation_sum_in_mm": 3.4,
+      "rain_sum_in_mm": 3.4,
+      "temperature_avg_in_c": 25.17,
+      "wind_speed_avg_in_kmh": 17.56
+    },
+    "tides": null,
+    "victim_survived": true,
+    "wound": "Panturrilha esquerda, com fratura exposta."
+  },
+  {
+    "beach": "Piedade",
+    "city": "Jaboatão dos Guararapes",
+    "date": "2009-09-07",
+    "id": "11cb3ed5-c79d-438e-94c9-5f8fad1af0a1",
+    "incident_day_weather": {
+      "apparent_temperature_avg_in_c": 27.19,
+      "precipitation_sum_in_mm": 2.9,
+      "rain_sum_in_mm": 2.9,
+      "temperature_avg_in_c": 24.98,
+      "wind_speed_avg_in_kmh": 16.18
+    },
+    "moon_phase": "full",
+    "nearest_outpost": {
+      "distance_to_incident": 27.29103098,
+      "latitude": -8.16968,
+      "longitude": -34.914100000000005,
+      "name": "Posto 04 Jaboatão Igrejinha"
+    },
+    "next_to": "Igreja de Piedade",
+    "previous_day_weather": {
+      "apparent_temperature_avg_in_c": 27.45,
+      "precipitation_sum_in_mm": 0.7,
+      "rain_sum_in_mm": 0.7,
+      "temperature_avg_in_c": 25.42,
+      "wind_speed_avg_in_kmh": 15.98
+    },
+    "tides": null,
+    "victim_survived": false,
+    "wound": "Nádegas, tronco e pernas."
+  },
+  {
+    "beach": "Pina",
+    "city": "Recife",
+    "date": "2011-06-29",
+    "id": "fafe1bc3-d186-48fe-ad77-cf3b5ff59c80",
+    "incident_day_weather": {
+      "apparent_temperature_avg_in_c": 28.37,
+      "precipitation_sum_in_mm": 21.5,
+      "rain_sum_in_mm": 21.5,
+      "temperature_avg_in_c": 24.76,
+      "wind_speed_avg_in_kmh": 9.95
+    },
+    "moon_phase": "new",
+    "nearest_outpost": {
+      "distance_to_incident": 490.57541429,
+      "latitude": -8.08109,
+      "longitude": -34.876599999999996,
+      "name": "Posto 01 Recife Buraco da Velha"
+    },
+    "next_to": "Brasília Teimosa",
+    "previous_day_weather": {
+      "apparent_temperature_avg_in_c": 28.15,
+      "precipitation_sum_in_mm": 3.2,
+      "rain_sum_in_mm": 3.2,
+      "temperature_avg_in_c": 24.65,
+      "wind_speed_avg_in_kmh": 10.86
+    },
+    "tides": null,
+    "victim_survived": true,
+    "wound": "Coxa e panturrilha direita."
+  },
+  {
+    "beach": "Del Chifre",
+    "city": "Olinda",
+    "date": "2011-11-12",
+    "id": "417e48d9-ffd1-472b-aa83-ffc1cbc53464",
+    "incident_day_weather": {
+      "apparent_temperature_avg_in_c": 28.13,
+      "precipitation_sum_in_mm": 0.4,
+      "rain_sum_in_mm": 0.4,
+      "temperature_avg_in_c": 26.26,
+      "wind_speed_avg_in_kmh": 18.51
+    },
+    "moon_phase": "full",
+    "nearest_outpost": {
+      "distance_to_incident": 1057.79988527,
+      "latitude": -8.01711,
+      "longitude": -34.8472,
+      "name": "Posto Carmo"
+    },
+    "next_to": "Praia de Del Chifre",
+    "previous_day_weather": {
+      "apparent_temperature_avg_in_c": 28.06,
+      "precipitation_sum_in_mm": 4.9,
+      "rain_sum_in_mm": 4.9,
+      "temperature_avg_in_c": 25.53,
+      "wind_speed_avg_in_kmh": 17.6
+    },
+    "tides": null,
+    "victim_survived": true,
+    "wound": "Coxa esquerda, pé direito, joelho direito e panturrilha direita."
+  },
+  {
+    "beach": "Praia de Enseada dos Corais",
+    "city": "Cabo de Santo Agostinho",
+    "date": "2012-08-26",
+    "id": "e6e968ae-d88c-4383-b91a-30f9b0cbaec3",
+    "incident_day_weather": {
+      "apparent_temperature_avg_in_c": 24.9,
+      "precipitation_sum_in_mm": 2.8,
+      "rain_sum_in_mm": 2.8,
+      "temperature_avg_in_c": 23.41,
+      "wind_speed_avg_in_kmh": 16.6
+    },
+    "moon_phase": "waxing",
+    "nearest_outpost": {
+      "distance_to_incident": 11759.51343583,
+      "latitude": -8.22359,
+      "longitude": -34.9263,
+      "name": "Posto 06 Jaboatão"
+    },
+    "next_to": "Praia de Enseada dos Corais",
+    "previous_day_weather": {
+      "apparent_temperature_avg_in_c": 24.37,
+      "precipitation_sum_in_mm": 0.1,
+      "rain_sum_in_mm": 0.1,
+      "temperature_avg_in_c": 24.1,
+      "wind_speed_avg_in_kmh": 19.4
+    },
+    "tides": null,
+    "victim_survived": false,
+    "wound": "Coxa direita, panturrilhas direita e esquerda"
+  },
+  {
+    "beach": "Boa Viagem",
+    "city": "Recife",
+    "date": "2012-09-23",
+    "id": "ea17bb52-0d43-49f6-a3b9-1778ee94f08c",
+    "incident_day_weather": {
+      "apparent_temperature_avg_in_c": 25.89,
+      "precipitation_sum_in_mm": 2.1,
+      "rain_sum_in_mm": 2.1,
+      "temperature_avg_in_c": 24.19,
+      "wind_speed_avg_in_kmh": 19.21
+    },
+    "moon_phase": "full",
+    "nearest_outpost": {
+      "distance_to_incident": 628.94342269,
+      "latitude": -8.15106,
+      "longitude": -34.9076,
+      "name": "Posto 13 Recife Porta Larga"
+    },
+    "next_to": "Próx. o Edifício El Greco nº6500",
+    "previous_day_weather": {
+      "apparent_temperature_avg_in_c": 27.1,
+      "precipitation_sum_in_mm": 0.5,
+      "rain_sum_in_mm": 0.5,
+      "temperature_avg_in_c": 24.82,
+      "wind_speed_avg_in_kmh": 14.28
+    },
+    "tides": null,
+    "victim_survived": false,
+    "wound": "Tronco, coxa esquerda, braço direito, joelho e perna esquerdos"
+  },
+  {
+    "beach": "Praia de Enseada dos Corais",
+    "city": "Cabo de Santo Agostinho",
+    "date": "2013-05-25",
+    "id": "950bd214-6c52-47dd-b2ba-71eea07b3371",
+    "incident_day_weather": {
+      "apparent_temperature_avg_in_c": 30.1,
+      "precipitation_sum_in_mm": 8.6,
+      "rain_sum_in_mm": 8.6,
+      "temperature_avg_in_c": 25.8,
+      "wind_speed_avg_in_kmh": 9.88
+    },
+    "moon_phase": "full",
+    "nearest_outpost": {
+      "distance_to_incident": 11759.51343583,
+      "latitude": -8.22359,
+      "longitude": -34.9263,
+      "name": "Posto 06 Jaboatão"
+    },
+    "next_to": "Praia de Enseada dos Corais",
+    "previous_day_weather": {
+      "apparent_temperature_avg_in_c": 30.1,
+      "precipitation_sum_in_mm": 4.2,
+      "rain_sum_in_mm": 4.2,
+      "temperature_avg_in_c": 26.28,
+      "wind_speed_avg_in_kmh": 10.0
+    },
+    "tides": null,
+    "victim_survived": false,
+    "wound": "Tronco, terço distal da perna esquerda e joelho direito"
+  },
+  {
+    "beach": "Boa Viagem",
+    "city": "Recife",
+    "date": "2013-07-22",
+    "id": "3b28c820-f7e4-4e68-87d5-e8b560118ba6",
+    "incident_day_weather": {
+      "apparent_temperature_avg_in_c": 27.34,
+      "precipitation_sum_in_mm": 2.5,
+      "rain_sum_in_mm": 2.5,
+      "temperature_avg_in_c": 24.5,
+      "wind_speed_avg_in_kmh": 13.02
+    },
+    "moon_phase": "full",
+    "nearest_outpost": {
+      "distance_to_incident": 438.27187537,
+      "latitude": -8.11787,
+      "longitude": -34.893299999999996,
+      "name": "Posto 06 Recife Acaiaca"
+    },
+    "next_to": "Em frente ao Edf. Anabella, nº4772",
+    "previous_day_weather": {
+      "apparent_temperature_avg_in_c": 27.47,
+      "precipitation_sum_in_mm": 5.0,
+      "rain_sum_in_mm": 5.0,
+      "temperature_avg_in_c": 24.28,
+      "wind_speed_avg_in_kmh": 13.31
+    },
+    "tides": null,
+    "victim_survived": false,
+    "wound": "Panturrilha e coxa esquerda"
+  },
+  {
+    "beach": "Del Chifre",
+    "city": "Olinda",
+    "date": "2015-03-31",
+    "id": "a21609ce-2848-4296-9346-cf15ec00370e",
+    "incident_day_weather": {
+      "apparent_temperature_avg_in_c": 29.13,
+      "precipitation_sum_in_mm": 0.0,
+      "rain_sum_in_mm": 0.0,
+      "temperature_avg_in_c": 26.91,
+      "wind_speed_avg_in_kmh": 15.47
+    },
+    "moon_phase": "waxing",
+    "nearest_outpost": {
+      "distance_to_incident": 1057.79988527,
+      "latitude": -8.01711,
+      "longitude": -34.8472,
+      "name": "Posto Carmo"
+    },
+    "next_to": "Praia de Del Chifre",
+    "previous_day_weather": {
+      "apparent_temperature_avg_in_c": 30.07,
+      "precipitation_sum_in_mm": 2.8,
+      "rain_sum_in_mm": 2.8,
+      "temperature_avg_in_c": 26.3,
+      "wind_speed_avg_in_kmh": 12.13
+    },
+    "tides": null,
+    "victim_survived": true,
+    "wound": "Coxa esquerda"
+  },
+  {
+    "beach": "Piedade",
+    "city": "Jaboatão dos Guararapes",
+    "date": "2018-04-15",
+    "id": "9a709b66-7cd8-409a-a496-720658e08fd9",
+    "incident_day_weather": {
+      "apparent_temperature_avg_in_c": 28.89,
+      "precipitation_sum_in_mm": 17.3,
+      "rain_sum_in_mm": 17.3,
+      "temperature_avg_in_c": 24.49,
+      "wind_speed_avg_in_kmh": 8.78
+    },
+    "moon_phase": "waning",
+    "nearest_outpost": {
+      "distance_to_incident": 27.29103098,
+      "latitude": -8.16968,
+      "longitude": -34.914100000000005,
+      "name": "Posto 04 Jaboatão Igrejinha"
+    },
+    "next_to": "Igreja de Piedade",
+    "previous_day_weather": {
+      "apparent_temperature_avg_in_c": 30.06,
+      "precipitation_sum_in_mm": 12.7,
+      "rain_sum_in_mm": 12.7,
+      "temperature_avg_in_c": 25.22,
+      "wind_speed_avg_in_kmh": 6.5
+    },
+    "tides": null,
+    "victim_survived": true,
+    "wound": "Perna direita, perna esquerda, braço direito e braço esquerdo."
+  },
+  {
+    "beach": "Piedade",
+    "city": "Jaboatão dos Guararapes",
+    "date": "2018-06-03",
+    "id": "987fd207-de53-4a50-b2bc-51d9d5045599",
+    "incident_day_weather": {
+      "apparent_temperature_avg_in_c": 29.63,
+      "precipitation_sum_in_mm": 4.6,
+      "rain_sum_in_mm": 4.6,
+      "temperature_avg_in_c": 25.57,
+      "wind_speed_avg_in_kmh": 10.64
+    },
+    "moon_phase": "waning",
+    "nearest_outpost": {
+      "distance_to_incident": 27.29103098,
+      "latitude": -8.16968,
+      "longitude": -34.914100000000005,
+      "name": "Posto 04 Jaboatão Igrejinha"
+    },
+    "next_to": "Igreja de Piedade",
+    "previous_day_weather": {
+      "apparent_temperature_avg_in_c": 28.93,
+      "precipitation_sum_in_mm": 7.0,
+      "rain_sum_in_mm": 7.0,
+      "temperature_avg_in_c": 24.65,
+      "wind_speed_avg_in_kmh": 7.38
+    },
+    "tides": null,
+    "victim_survived": false,
+    "wound": "Perna esquerda e parte da genitália"
+  },
+  {
+    "beach": "Piedade",
+    "city": "Jaboatão dos Guararapes",
+    "date": "2021-07-10",
+    "id": "0300b99a-315a-4ae7-b849-0dbd52152941",
+    "incident_day_weather": {
+      "apparent_temperature_avg_in_c": 27.35,
+      "precipitation_sum_in_mm": 4.8,
+      "rain_sum_in_mm": 4.8,
+      "temperature_avg_in_c": 23.92,
+      "wind_speed_avg_in_kmh": 10.93
+    },
+    "moon_phase": "new",
+    "nearest_outpost": {
+      "distance_to_incident": 27.29103098,
+      "latitude": -8.16968,
+      "longitude": -34.914100000000005,
+      "name": "Posto 04 Jaboatão Igrejinha"
+    },
+    "next_to": "Igreja de Piedade",
+    "previous_day_weather": {
+      "apparent_temperature_avg_in_c": 27.79,
+      "precipitation_sum_in_mm": 2.2,
+      "rain_sum_in_mm": 2.2,
+      "temperature_avg_in_c": 24.68,
+      "wind_speed_avg_in_kmh": 10.98
+    },
+    "tides": null,
+    "victim_survived": false,
+    "wound": "Perna direita e Mão direita"
+  },
+  {
+    "beach": "Piedade",
+    "city": "Jaboatão dos Guararapes",
+    "date": "2021-07-25",
+    "id": "2bb3bb09-a7a4-4401-863a-fc4e03883c47",
+    "incident_day_weather": {
+      "apparent_temperature_avg_in_c": 25.45,
+      "precipitation_sum_in_mm": 9.0,
+      "rain_sum_in_mm": 9.0,
+      "temperature_avg_in_c": 23.06,
+      "wind_speed_avg_in_kmh": 15.39
+    },
+    "moon_phase": "full",
+    "nearest_outpost": {
+      "distance_to_incident": 27.29103098,
+      "latitude": -8.16968,
+      "longitude": -34.914100000000005,
+      "name": "Posto 04 Jaboatão Igrejinha"
+    },
+    "next_to": "Igreja de Piedade",
+    "previous_day_weather": {
+      "apparent_temperature_avg_in_c": 25.57,
+      "precipitation_sum_in_mm": 1.9,
+      "rain_sum_in_mm": 1.9,
+      "temperature_avg_in_c": 24.32,
+      "wind_speed_avg_in_kmh": 17.0
+    },
+    "tides": null,
+    "victim_survived": true,
+    "wound": "Quadril, Glútel esquerto e Perna esquerda"
+  },
+  {
+    "beach": "Del Chifre",
+    "city": "Olinda",
+    "date": "2023-02-20",
+    "id": "2c5aede4-5284-4585-9bc0-08e52526382d",
+    "incident_day_weather": {
+      "apparent_temperature_avg_in_c": 30.65,
+      "precipitation_sum_in_mm": 1.5,
+      "rain_sum_in_mm": 1.5,
+      "temperature_avg_in_c": 27.31,
+      "wind_speed_avg_in_kmh": 14.13
+    },
+    "moon_phase": "new",
+    "nearest_outpost": {
+      "distance_to_incident": 1057.79988527,
+      "latitude": -8.01711,
+      "longitude": -34.8472,
+      "name": "Posto Carmo"
+    },
+    "next_to": "Praia de Del Chifre",
+    "previous_day_weather": {
+      "apparent_temperature_avg_in_c": 30.79,
+      "precipitation_sum_in_mm": 2.2,
+      "rain_sum_in_mm": 2.2,
+      "temperature_avg_in_c": 26.73,
+      "wind_speed_avg_in_kmh": 10.71
+    },
+    "tides": null,
+    "victim_survived": true,
+    "wound": "Membro Inferior Esquerdo"
+  },
+  {
+    "beach": "Piedade",
+    "city": "Jaboatão dos Guararapes",
+    "date": "2023-03-05",
+    "id": "a2c0cee7-ee39-46aa-b4a1-bb60a70548a6",
+    "incident_day_weather": {
+      "apparent_temperature_avg_in_c": 31.14,
+      "precipitation_sum_in_mm": 1.1,
+      "rain_sum_in_mm": 1.1,
+      "temperature_avg_in_c": 27.14,
+      "wind_speed_avg_in_kmh": 10.72
+    },
+    "moon_phase": "full",
+    "nearest_outpost": {
+      "distance_to_incident": 27.29103098,
+      "latitude": -8.16968,
+      "longitude": -34.914100000000005,
+      "name": "Posto 04 Jaboatão Igrejinha"
+    },
+    "next_to": "Igreja de Piedade",
+    "previous_day_weather": {
+      "apparent_temperature_avg_in_c": 31.02,
+      "precipitation_sum_in_mm": 0.4,
+      "rain_sum_in_mm": 0.4,
+      "temperature_avg_in_c": 27.3,
+      "wind_speed_avg_in_kmh": 11.18
+    },
+    "tides": null,
+    "victim_survived": true,
+    "wound": "Membro Inferior Direito"
+  },
+  {
+    "beach": "Piedade",
+    "city": "Jaboatão dos Guararapes",
+    "date": "2023-03-06",
+    "id": "29bd1e3e-62cf-4cdb-a630-14096fc98a20",
+    "incident_day_weather": {
+      "apparent_temperature_avg_in_c": 30.82,
+      "precipitation_sum_in_mm": 0.6,
+      "rain_sum_in_mm": 0.6,
+      "temperature_avg_in_c": 27.69,
+      "wind_speed_avg_in_kmh": 13.04
+    },
+    "moon_phase": "full",
+    "nearest_outpost": {
+      "distance_to_incident": 291.48489701,
+      "latitude": -8.17739,
+      "longitude": -34.9163,
+      "name": "Posto 05 Jaboatão"
+    },
+    "next_to": "Golden Beach",
+    "previous_day_weather": {
+      "apparent_temperature_avg_in_c": 31.14,
+      "precipitation_sum_in_mm": 1.1,
+      "rain_sum_in_mm": 1.1,
+      "temperature_avg_in_c": 27.14,
+      "wind_speed_avg_in_kmh": 10.72
+    },
+    "tides": null,
+    "victim_survived": true,
+    "wound": "Membro Superior Esquerdo"
+  }
+]

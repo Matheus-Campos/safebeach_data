@@ -50,7 +50,20 @@ def main(stormglass):
 
         file.seek(0)
         file.truncate()
-        json.dump(shark_incidents, file, indent=2, ensure_ascii=False, sort_keys=True)
+        json.dump(
+            shark_incidents,
+            file,
+            indent=2,
+            ensure_ascii=False,
+            sort_keys=True,
+            default=__serialize_time,
+        )
+
+
+def __serialize_time(obj):
+    if isinstance(obj, datetime):
+        return obj.isoformat()
+    raise TypeError("Type not serializable")
 
 
 if __name__ == "__main__":

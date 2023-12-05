@@ -1160,7 +1160,28 @@
       "temperature_avg_in_c": 24.93,
       "wind_speed_avg_in_kmh": 17.31
     },
-    "tides": null,
+    "tides": [
+      {
+        "height": 0.5249064737131697,
+        "time": "1997-05-17T00:33:00-03:00",
+        "type": "high"
+      },
+      {
+        "height": -0.5105788902179901,
+        "time": "1997-05-17T06:42:00-03:00",
+        "type": "low"
+      },
+      {
+        "height": 0.5846359627921206,
+        "time": "1997-05-17T12:48:00-03:00",
+        "type": "high"
+      },
+      {
+        "height": -0.6340090581681942,
+        "time": "1997-05-17T19:04:00-03:00",
+        "type": "low"
+      }
+    ],
     "victim_survived": true,
     "wound": "Antebraço esquerdo"
   },
@@ -1191,7 +1212,28 @@
       "temperature_avg_in_c": 24.59,
       "wind_speed_avg_in_kmh": 17.2
     },
-    "tides": null,
+    "tides": [
+      {
+        "height": 0.8313635214977837,
+        "time": "1997-07-02T01:58:00-03:00",
+        "type": "high"
+      },
+      {
+        "height": -0.8718145890179364,
+        "time": "1997-07-02T08:18:00-03:00",
+        "type": "low"
+      },
+      {
+        "height": 0.8150556754896009,
+        "time": "1997-07-02T14:27:00-03:00",
+        "type": "high"
+      },
+      {
+        "height": -0.8116307007485375,
+        "time": "1997-07-02T20:37:00-03:00",
+        "type": "low"
+      }
+    ],
     "victim_survived": true,
     "wound": "Perna"
   },
@@ -1222,7 +1264,28 @@
       "temperature_avg_in_c": 25.3,
       "wind_speed_avg_in_kmh": 14.67
     },
-    "tides": null,
+    "tides": [
+      {
+        "height": -1.0652556254004883,
+        "time": "1997-09-15T21:04:00-03:00",
+        "type": "low"
+      },
+      {
+        "height": 1.2356154030484192,
+        "time": "1997-09-16T03:13:00-03:00",
+        "type": "high"
+      },
+      {
+        "height": -1.2163302852097673,
+        "time": "1997-09-16T09:30:00-03:00",
+        "type": "low"
+      },
+      {
+        "height": 1.173720647921938,
+        "time": "1997-09-16T15:39:00-03:00",
+        "type": "high"
+      }
+    ],
     "victim_survived": false,
     "wound": "Tronco e braço"
   },
@@ -1253,7 +1316,28 @@
       "temperature_avg_in_c": 27.87,
       "wind_speed_avg_in_kmh": 12.21
     },
-    "tides": null,
+    "tides": [
+      {
+        "height": -0.8518700014391799,
+        "time": "1998-04-01T00:36:00-03:00",
+        "type": "low"
+      },
+      {
+        "height": 0.8611613368594287,
+        "time": "1998-04-01T06:46:00-03:00",
+        "type": "high"
+      },
+      {
+        "height": -0.8433352114950486,
+        "time": "1998-04-01T13:01:00-03:00",
+        "type": "low"
+      },
+      {
+        "height": 0.7684228252089473,
+        "time": "1998-04-01T19:17:00-03:00",
+        "type": "high"
+      }
+    ],
     "victim_survived": false,
     "wound": "Tronco,braço e perna"
   },
@@ -1284,7 +1368,28 @@
       "temperature_avg_in_c": 23.8,
       "wind_speed_avg_in_kmh": 17.55
     },
-    "tides": null,
+    "tides": [
+      {
+        "height": -0.8257544099994836,
+        "time": "1998-07-25T23:18:00-03:00",
+        "type": "low"
+      },
+      {
+        "height": 0.9479165404774044,
+        "time": "1998-07-26T05:27:00-03:00",
+        "type": "high"
+      },
+      {
+        "height": -0.90340616232409,
+        "time": "1998-07-26T11:44:00-03:00",
+        "type": "low"
+      },
+      {
+        "height": 0.7828106476547853,
+        "time": "1998-07-26T17:52:00-03:00",
+        "type": "high"
+      }
+    ],
     "victim_survived": true,
     "wound": "Pé"
   },
@@ -1315,7 +1420,23 @@
       "temperature_avg_in_c": 25.37,
       "wind_speed_avg_in_kmh": 14.66
     },
-    "tides": null,
+    "tides": [
+      {
+        "height": 1.0766593373730582,
+        "time": "1998-10-04T02:28:00-03:00",
+        "type": "high"
+      },
+      {
+        "height": -1.0895687874711524,
+        "time": "1998-10-04T08:45:00-03:00",
+        "type": "low"
+      },
+      {
+        "height": 1.0677969455276692,
+        "time": "1998-10-04T14:54:00-03:00",
+        "type": "high"
+      }
+    ],
     "victim_survived": true,
     "wound": "Coxa e perna"
   },
@@ -1346,7 +1467,28 @@
       "temperature_avg_in_c": 26.9,
       "wind_speed_avg_in_kmh": 16.41
     },
-    "tides": null,
+    "tides": [
+      {
+        "height": 1.0769572478354468,
+        "time": "1998-11-02T02:04:00-03:00",
+        "type": "high"
+      },
+      {
+        "height": -1.0738545874722925,
+        "time": "1998-11-02T08:21:00-03:00",
+        "type": "low"
+      },
+      {
+        "height": 1.0769341648469914,
+        "time": "1998-11-02T14:30:00-03:00",
+        "type": "high"
+      },
+      {
+        "height": -1.064297873604704,
+        "time": "1998-11-02T20:40:00-03:00",
+        "type": "low"
+      }
+    ],
     "victim_survived": false,
     "wound": "Coxa e braço"
   },
@@ -1377,7 +1519,28 @@
       "temperature_avg_in_c": 25.29,
       "wind_speed_avg_in_kmh": 9.56
     },
-    "tides": null,
+    "tides": [
+      {
+        "height": -0.886003541246847,
+        "time": "1999-04-30T22:02:00-03:00",
+        "type": "low"
+      },
+      {
+        "height": 0.8991235910234275,
+        "time": "1999-05-01T04:09:00-03:00",
+        "type": "high"
+      },
+      {
+        "height": -0.9032478059978368,
+        "time": "1999-05-01T10:18:00-03:00",
+        "type": "low"
+      },
+      {
+        "height": 0.8638192444483626,
+        "time": "1999-05-01T16:27:00-03:00",
+        "type": "high"
+      }
+    ],
     "victim_survived": true,
     "wound": "Mãos e perna"
   },
@@ -1408,7 +1571,28 @@
       "temperature_avg_in_c": 26.98,
       "wind_speed_avg_in_kmh": 14.48
     },
-    "tides": null,
+    "tides": [
+      {
+        "height": -1.0060735468489912,
+        "time": "1999-12-26T01:17:00-02:00",
+        "type": "low"
+      },
+      {
+        "height": 0.8482583416445244,
+        "time": "1999-12-26T07:29:00-02:00",
+        "type": "high"
+      },
+      {
+        "height": -0.7838445219973441,
+        "time": "1999-12-26T13:32:00-02:00",
+        "type": "low"
+      },
+      {
+        "height": 0.9298952201116154,
+        "time": "1999-12-26T19:43:00-02:00",
+        "type": "high"
+      }
+    ],
     "victim_survived": true,
     "wound": "Perna"
   },
@@ -1439,7 +1623,28 @@
       "temperature_avg_in_c": 27.61,
       "wind_speed_avg_in_kmh": 14.43
     },
-    "tides": null,
+    "tides": [
+      {
+        "height": 0.5302484961370357,
+        "time": "2001-03-02T21:22:00-03:00",
+        "type": "high"
+      },
+      {
+        "height": -0.4858286272760809,
+        "time": "2001-03-03T03:43:00-03:00",
+        "type": "low"
+      },
+      {
+        "height": 0.5087605196655498,
+        "time": "2001-03-03T09:59:00-03:00",
+        "type": "high"
+      },
+      {
+        "height": -0.5480890491119949,
+        "time": "2001-03-03T16:29:00-03:00",
+        "type": "low"
+      }
+    ],
     "victim_survived": false,
     "wound": "Tronco,braço e perna"
   },
@@ -1470,7 +1675,28 @@
       "temperature_avg_in_c": 26.8,
       "wind_speed_avg_in_kmh": 13.7
     },
-    "tides": null,
+    "tides": [
+      {
+        "height": -1.0052268284350483,
+        "time": "2002-01-03T01:30:00-02:00",
+        "type": "low"
+      },
+      {
+        "height": 0.8677011947822928,
+        "time": "2002-01-03T07:44:00-02:00",
+        "type": "high"
+      },
+      {
+        "height": -0.7962823713884344,
+        "time": "2002-01-03T13:46:00-02:00",
+        "type": "low"
+      },
+      {
+        "height": 0.9890599006894615,
+        "time": "2002-01-03T19:59:00-02:00",
+        "type": "high"
+      }
+    ],
     "victim_survived": false,
     "wound": "Tronco"
   },

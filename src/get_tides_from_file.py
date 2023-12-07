@@ -11,6 +11,7 @@ def main(stormglass):
     with open("shark_incidents.json", "r+") as file:
         shark_incidents = json.load(file)
         local_tz = pytz.timezone("America/Recife")
+        stormglass_quota_exceeded = False
 
         for i in range(len(shark_incidents)):
             si = shark_incidents[i]
@@ -19,7 +20,7 @@ def main(stormglass):
             def log_with_progress(msg):
                 print("{}% - {}".format(progress, msg))
 
-            if si["tides"] is None:
+            if not stormglass_quota_exceeded and si["tides"] is None:
                 log_with_progress(
                     "Checking shark incident %s for tides data" % si["id"]
                 )
@@ -42,9 +43,13 @@ def main(stormglass):
                         "Updated tides data for shark incident %s" % si["id"]
                     )
                 else:
+                    stormglass_quota_exceeded = True
                     log_with_progress(
                         "Stormglass returned null either because of daily quota or an unknown error"
                     )
+
+                if stormglass_quota_exceeded:
+                    break
             else:
                 log_with_progress("Skipping shark incident %s" % si["id"])
 

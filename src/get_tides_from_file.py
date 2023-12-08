@@ -45,7 +45,7 @@ def main(stormglass):
                 else:
                     stormglass_quota_exceeded = True
                     log_with_progress(
-                        "Stormglass returned null either because of daily quota or an unknown error"
+                        "Stormglass returned null either because of daily quota or an unknown error\nEnding process..."
                     )
 
                 if stormglass_quota_exceeded:

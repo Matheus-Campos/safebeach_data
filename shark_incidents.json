@@ -2846,7 +2846,28 @@
       "temperature_avg_in_c": 24.1,
       "wind_speed_avg_in_kmh": 19.4
     },
-    "tides": null,
+    "tides": [
+      {
+        "height": 0.5934857666801472,
+        "time": "2012-08-25T22:40:00-03:00",
+        "type": "high"
+      },
+      {
+        "height": -0.645185766126866,
+        "time": "2012-08-26T05:18:00-03:00",
+        "type": "low"
+      },
+      {
+        "height": 0.5716875677605188,
+        "time": "2012-08-26T11:35:00-03:00",
+        "type": "high"
+      },
+      {
+        "height": -0.5599180560404181,
+        "time": "2012-08-26T17:54:00-03:00",
+        "type": "low"
+      }
+    ],
     "victim_survived": false,
     "wound": "Coxa direita, panturrilhas direita e esquerda"
   },
@@ -2877,7 +2898,23 @@
       "temperature_avg_in_c": 24.82,
       "wind_speed_avg_in_kmh": 14.28
     },
-    "tides": null,
+    "tides": [
+      {
+        "height": -0.6454383200432663,
+        "time": "2012-09-23T03:32:00-03:00",
+        "type": "low"
+      },
+      {
+        "height": 0.5366500193407283,
+        "time": "2012-09-23T09:52:00-03:00",
+        "type": "high"
+      },
+      {
+        "height": -0.49119646254901717,
+        "time": "2012-09-23T16:10:00-03:00",
+        "type": "low"
+      }
+    ],
     "victim_survived": false,
     "wound": "Tronco, coxa esquerda, braço direito, joelho e perna esquerdos"
   },
@@ -2908,7 +2945,28 @@
       "temperature_avg_in_c": 26.28,
       "wind_speed_avg_in_kmh": 10.0
     },
-    "tides": null,
+    "tides": [
+      {
+        "height": -1.016257363385978,
+        "time": "2013-05-24T21:28:00-03:00",
+        "type": "low"
+      },
+      {
+        "height": 1.0943100361660565,
+        "time": "2013-05-25T03:36:00-03:00",
+        "type": "high"
+      },
+      {
+        "height": -1.12802933402259,
+        "time": "2013-05-25T09:52:00-03:00",
+        "type": "low"
+      },
+      {
+        "height": 1.0628689669233,
+        "time": "2013-05-25T16:03:00-03:00",
+        "type": "high"
+      }
+    ],
     "victim_survived": false,
     "wound": "Tronco, terço distal da perna esquerda e joelho direito"
   },
@@ -2939,7 +2997,28 @@
       "temperature_avg_in_c": 24.28,
       "wind_speed_avg_in_kmh": 13.31
     },
-    "tides": null,
+    "tides": [
+      {
+        "height": -0.9854866279586249,
+        "time": "2013-07-21T21:08:00-03:00",
+        "type": "low"
+      },
+      {
+        "height": 1.1478795489305387,
+        "time": "2013-07-22T03:17:00-03:00",
+        "type": "high"
+      },
+      {
+        "height": -1.1728373158872711,
+        "time": "2013-07-22T09:37:00-03:00",
+        "type": "low"
+      },
+      {
+        "height": 1.0665004432369267,
+        "time": "2013-07-22T15:47:00-03:00",
+        "type": "high"
+      }
+    ],
     "victim_survived": false,
     "wound": "Panturrilha e coxa esquerda"
   },
@@ -2970,7 +3049,28 @@
       "temperature_avg_in_c": 26.3,
       "wind_speed_avg_in_kmh": 12.13
     },
-    "tides": null,
+    "tides": [
+      {
+        "height": 0.5951032536444467,
+        "time": "2015-03-31T01:36:00-03:00",
+        "type": "high"
+      },
+      {
+        "height": -0.6093297764252825,
+        "time": "2015-03-31T07:42:00-03:00",
+        "type": "low"
+      },
+      {
+        "height": 0.7056768149455381,
+        "time": "2015-03-31T13:48:00-03:00",
+        "type": "high"
+      },
+      {
+        "height": -0.7495082162077042,
+        "time": "2015-03-31T20:05:00-03:00",
+        "type": "low"
+      }
+    ],
     "victim_survived": true,
     "wound": "Coxa esquerda"
   },
@@ -3001,7 +3101,28 @@
       "temperature_avg_in_c": 25.22,
       "wind_speed_avg_in_kmh": 6.5
     },
-    "tides": null,
+    "tides": [
+      {
+        "height": -0.9921993574654587,
+        "time": "2018-04-14T21:14:00-03:00",
+        "type": "low"
+      },
+      {
+        "height": 0.9862403646999365,
+        "time": "2018-04-15T03:23:00-03:00",
+        "type": "high"
+      },
+      {
+        "height": -0.9706081062534421,
+        "time": "2018-04-15T09:28:00-03:00",
+        "type": "low"
+      },
+      {
+        "height": 1.0677387545978922,
+        "time": "2018-04-15T15:36:00-03:00",
+        "type": "high"
+      }
+    ],
     "victim_survived": true,
     "wound": "Perna direita, perna esquerda, braço direito e braço esquerdo."
   },
@@ -3032,7 +3153,28 @@
       "temperature_avg_in_c": 24.65,
       "wind_speed_avg_in_kmh": 7.38
     },
-    "tides": null,
+    "tides": [
+      {
+        "height": -0.5616665879762812,
+        "time": "2018-06-03T00:19:00-03:00",
+        "type": "low"
+      },
+      {
+        "height": 0.6365889955471534,
+        "time": "2018-06-03T06:33:00-03:00",
+        "type": "high"
+      },
+      {
+        "height": -0.631686516386113,
+        "time": "2018-06-03T12:54:00-03:00",
+        "type": "low"
+      },
+      {
+        "height": 0.48772389194998605,
+        "time": "2018-06-03T19:09:00-03:00",
+        "type": "high"
+      }
+    ],
     "victim_survived": false,
     "wound": "Perna esquerda e parte da genitália"
   },
@@ -3063,7 +3205,28 @@
       "temperature_avg_in_c": 24.68,
       "wind_speed_avg_in_kmh": 10.98
     },
-    "tides": null,
+    "tides": [
+      {
+        "height": -0.7364739661889497,
+        "time": "2021-07-09T21:49:00-03:00",
+        "type": "low"
+      },
+      {
+        "height": 0.828192801793989,
+        "time": "2021-07-10T03:57:00-03:00",
+        "type": "high"
+      },
+      {
+        "height": -0.8764663799250845,
+        "time": "2021-07-10T10:15:00-03:00",
+        "type": "low"
+      },
+      {
+        "height": 0.7423938463181553,
+        "time": "2021-07-10T16:25:00-03:00",
+        "type": "high"
+      }
+    ],
     "victim_survived": false,
     "wound": "Perna direita e Mão direita"
   },
@@ -3094,7 +3257,28 @@
       "temperature_avg_in_c": 24.32,
       "wind_speed_avg_in_kmh": 17.0
     },
-    "tides": null,
+    "tides": [
+      {
+        "height": -0.9063181653988912,
+        "time": "2021-07-24T22:29:00-03:00",
+        "type": "low"
+      },
+      {
+        "height": 1.070415014080962,
+        "time": "2021-07-25T04:36:00-03:00",
+        "type": "high"
+      },
+      {
+        "height": -1.0771542990887615,
+        "time": "2021-07-25T10:58:00-03:00",
+        "type": "low"
+      },
+      {
+        "height": 0.9056831824209485,
+        "time": "2021-07-25T17:07:00-03:00",
+        "type": "high"
+      }
+    ],
     "victim_survived": true,
     "wound": "Quadril, Glútel esquerto e Perna esquerda"
   },
@@ -3125,7 +3309,28 @@
       "temperature_avg_in_c": 26.73,
       "wind_speed_avg_in_kmh": 10.71
     },
-    "tides": null,
+    "tides": [
+      {
+        "height": -1.1871009541725284,
+        "time": "2023-02-19T21:52:00-03:00",
+        "type": "low"
+      },
+      {
+        "height": 1.0692471618371169,
+        "time": "2023-02-20T04:02:00-03:00",
+        "type": "high"
+      },
+      {
+        "height": -1.0274044353045848,
+        "time": "2023-02-20T10:05:00-03:00",
+        "type": "low"
+      },
+      {
+        "height": 1.2408650258506977,
+        "time": "2023-02-20T16:14:00-03:00",
+        "type": "high"
+      }
+    ],
     "victim_survived": true,
     "wound": "Membro Inferior Esquerdo"
   },
@@ -3156,7 +3361,23 @@
       "temperature_avg_in_c": 27.3,
       "wind_speed_avg_in_kmh": 11.18
     },
-    "tides": null,
+    "tides": [
+      {
+        "height": 0.6951493994888588,
+        "time": "2023-03-05T03:03:00-03:00",
+        "type": "high"
+      },
+      {
+        "height": -0.7042050426105253,
+        "time": "2023-03-05T09:03:00-03:00",
+        "type": "low"
+      },
+      {
+        "height": 0.8397298493134318,
+        "time": "2023-03-05T15:08:00-03:00",
+        "type": "high"
+      }
+    ],
     "victim_survived": true,
     "wound": "Membro Inferior Direito"
   },
